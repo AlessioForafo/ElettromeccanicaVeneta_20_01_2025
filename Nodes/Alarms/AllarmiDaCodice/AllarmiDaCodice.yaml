@@ -1,0 +1,5604 @@
+Name: AllarmiDaCodice
+Id: g=f23b971ab271f0ff00c1cd0946e414b4
+Type: FolderType
+Children:
+- Name: Allarme_0
+  Id: g=a1be1108b08547e68570e0d67187c39f
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=4d2431dbe701ee6082922716c32886a1
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=1e78ee0bf6b3e97649d653ab75f46bfc
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=48d886ce8ec9a264b491722d60ba7409
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=1d04448a041790e4aea0bff7d1b22e8f
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 0"}
+- Name: Allarme_1
+  Id: g=ce13c39b52284c9599dfe22d144afc51
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=4d9beace8d9613147943d6e8afdea790
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=97c1db4e95e3d5e5828fbc9433cac665
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=460d18f16f21e54c116ded4bbb30b3d5
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=3cb59e081bd63f18a08813db57d4236c
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 1"}
+- Name: Allarme_2
+  Id: g=ae73f0ba299248bbb2bed49de9aada6d
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=c963c951082722f9899c922a273adba7
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=d168d8828d28a6fbddb82a517c922787
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=a1a80d81be5c9d197e249b56186caddd
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=e9fbdf0e497b8ed255681ba50f832eb9
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 2"}
+- Name: Allarme_3
+  Id: g=6dc85f494440426b906caa2fae5d48fb
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=f41de5fba70713bdc824ec7a8a308362
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=f74346fb168811208b1e7959a71a4ed6
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=dd90b46f9df46b52014a0fe136adef34
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=8e86a48d2bb35c79b004f8f74e5a60af
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 3"}
+- Name: Allarme_4
+  Id: g=1440c32ff7414437a340bf76b641fdce
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=7a7c55963086d1cd9f04ba4eec05551c
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=95d044c49b98e7187f375177b125db3d
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=56b17183146aabd7174f2a770a4bde9d
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=6882b2b1bdd80ba6982d48d5a5f0e99c
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 4"}
+- Name: Allarme_5
+  Id: g=84dcde272d3d434499af85ca11b13a5f
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=72f6547f698f5bc2251317ad6b79126a
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=f658cc682243633359df03f95d8a7011
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=573ce12d66746503a7ef201dccec6795
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=70b924de139520c7609a2dbc3df68328
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 5"}
+- Name: Allarme_6
+  Id: g=c622e0637c2344bb9b2c199ba995badc
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=aed0f6f991467f307be2953713d8a771
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=267c67770f8c1aef95ca3ba27a975035
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=0e696eed566bcfdd2d886d3b3f84d791
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=c5f739a6aa37e24fcf7d0a4cc3a071ef
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 6"}
+- Name: Allarme_7
+  Id: g=3a880bcf5d0442128277ce7f7edd0648
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=61fe3041e55b246af7021a6f24a7dece
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=14f74eab63ae634040ce4fa2f34d016b
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=f58b30d43659f1a0b7d0ec01b53064b0
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=a03c84ab2773813694080e3d6da9c9cb
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 7"}
+- Name: Allarme_8
+  Id: g=b6f74003bbe14ce089e079eb265fbbb6
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=c40a2a316f8e72319d5d6155600ecb57
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=7efe62411fd4a1e259f79a91d51fc69f
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=24a4ca8697035ddc4a7230c04d62067a
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=af6c7dbf54235c2556d46f70e46b6550
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 8"}
+- Name: Allarme_9
+  Id: g=4b73ff26ebbf4338a51859e1e29ffb29
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=3fc48aac3e6b09827339df2ae3c316c3
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=f5a519c2752aa4a2106af4366d4227f0
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=3f9e139ed04ae0fa6485663d2efe1311
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=acb606c11e4f93ee5f615dbe2d7f21a6
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 9"}
+- Name: Allarme_10
+  Id: g=1106c63d4c534ae3b4630eb84276f277
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=be512f76791da4a83a30734c402e0b98
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=8718b4115ac93010e1bbdd090d684312
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=57c2975e1649756c4f92731333fa0214
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=24c600bc7f650e954626dc1ac651d2f3
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 10"}
+- Name: Allarme_11
+  Id: g=a3ffb164dd00489186f0dec6b0872643
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=2acfad0935990f1a2df823c5b3179028
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=9cd7415ce1355dd3bd701d9430da90db
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=5a61ff2a0ee0bb4139f824bdbc72ae2d
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=de92a3a4842d3477d3b4914c6ec732c5
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 11"}
+- Name: Allarme_12
+  Id: g=9f5a5778f83b4923adb19c5d8e922d02
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=817e2d68eca7243951376ff1bed4d5be
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=8072d9d9cc41596642fcfb7baeb2b654
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=9a53ebb76f41819470e87a946933fe4b
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=15002c7ccf7bbfa47ffac3914836744e
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 12"}
+- Name: Allarme_13
+  Id: g=37afe29318494d8997dce2f5c8f31f89
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=cb101cfe33de6f7f13cf605fd74c6deb
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=c0bfdf8f4c04d53b5c2742a36abe9ef5
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=764798a3c0a0ecb3c5a863c5833b38d4
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=dd2b0c28f9d9985d4f5ce0db6d5bc6df
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 13"}
+- Name: Allarme_14
+  Id: g=b5b3d352905d42f987a599b2047cbf46
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=e9a161c581ad1bcbaa2f998d6f3a27ee
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=cb9314404ca1d1ecafe8d3679d2537c1
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=cc1b884a935c1275ff83dc2c7d2e19b9
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=1d234ac3a60d1997ccd50a85d84c1e6f
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 14"}
+- Name: Allarme_15
+  Id: g=96af4d3439ac47d8b8d050c162eac5c3
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=bf08b802e5431d8b3926f88ccca027da
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=ddf88a1ad54ff74eba980a3ac659be9a
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=70670b4609103dfeba07735555540915
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=2745daed05a8b4fb8c30cdcb8bbdaae4
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 15"}
+- Name: Allarme_16
+  Id: g=cd99e43c53c3466c800a7e130ff053fe
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=edb3adab2eb54eb5c83d5bccba19ef18
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=b82fac0b244a734a9e4804f4724a0712
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=1edd7e4085a85ff56ebe5cba5ade590c
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=c6b3b07a6c8678f7d5bf54f3cb1d86e3
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 16"}
+- Name: Allarme_17
+  Id: g=82fc20e3b1204cfb9b853b6acdb2f514
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=1fd04b1fb71d415c87e1793c09360b93
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=e8aaf3c2bee70c9331f32c7298280ec3
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=0c69002d154e463470a1e82e98b5482a
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=448a57a4108f123f0ecf653584804f39
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 17"}
+- Name: Allarme_18
+  Id: g=209ab8b23f424293b4e4a058a117d45c
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=097fa1d392857da91f93aed64c03c41c
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=43fbda2a38f18091860c61c652ec5ecc
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=4561c68035898f5d0fcc8f13c67abab8
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=1bf5cedb75589864eb74ff6f30336e22
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 18"}
+- Name: Allarme_19
+  Id: g=c4c4b2f5e5694e98a771cf11004a3bb7
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=90bced484164bb08091479d986bcd036
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=67230d75b7de234c33914410ef263508
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=8fce09da5b63293e63bb303224dba261
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=bdb7eaa2e7282ba2ff1d8cb79742eb88
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 19"}
+- Name: Allarme_20
+  Id: g=89397a21f26649a0bad11a91080d0ff1
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=33018817d9281be2cf7261449f33a439
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=9d7f73f2e5f57e00fe19542d0b15f7e2
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=b89de05c59c3be9b7b3ff3f833eb33b4
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=77ed6f14017e4cf8f0f1ee70960b484e
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 20"}
+- Name: Allarme_21
+  Id: g=207a4dbb32ec4fe2996f9e4b8c328d46
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=689ea1986674bc11572bf7ae9a540393
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=cd239b9b9ca045fc91f61e07fd3d059c
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=e57a560be7564ac6010c22fa0a6f03d9
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=a3be31ed0bf3fc37f7adc134ba104449
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 21"}
+- Name: Allarme_22
+  Id: g=5e4cc17065dd40d59396a5c8948a0a9b
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=d0757836b0cc35a0d35aa956d1f1ce3b
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=c88b2001eb7d752ad9db0ebf8737f059
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=ae0f2ce0320489e8d30e572090f9f737
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=6834b9314ae1849567e2a482f0a76f92
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 22"}
+- Name: Allarme_23
+  Id: g=fea0762c8b964f198573600f27a48420
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=fda7408a2d3ade944fe77afccfdf86cb
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=f00ec72796d268ab06bbba0701a7e9e9
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=3785af723597db52215e64964af95912
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=bb55aa12d0133ff6b482665853793137
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 23"}
+- Name: Allarme_24
+  Id: g=2fc0dac0952145daa4d1acf91cc5cfcb
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=6d6980d253813653179394cfc2f5d04c
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=77d1622c9bc3e32d80d5b27317be7e49
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=349f53560f043209a8c1ad81d6023aa0
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=d3d68145a8b60f17bf024bd7693b19e1
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 24"}
+- Name: Allarme_25
+  Id: g=98c968de502d49c89f13fdc3485dc2cd
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=cd47888fa702678321858f36dd6b1606
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=7a5047ee376e8c34793a2efd7444848a
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=b74296cbd62f92198435d8f1406061d8
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=0608f47190a34a33b12a6a5f5ca28ecd
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 25"}
+- Name: Allarme_26
+  Id: g=cbf9b3f3d40e4dc7b24b6e230bf78961
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=55a0356602325d4cc6eedeb8840a4971
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=45bf9df8556ed99a140395b1e3abe580
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=1bc3831312df00b942f984f1bbc95d08
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=60fe97737a667903297653d0bc57549b
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 26"}
+- Name: Allarme_27
+  Id: g=f6d757c78c374771ab67af3c028f7679
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=68876145a11a9ac1400bbcd2a0f169d8
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=7b328602bbd0112067d8f6ec32aa0aae
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=0570227f95e926b46a1fbe4b4a88dd66
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=f7437141beed24a5a88d641108a9ca34
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 27"}
+- Name: Allarme_28
+  Id: g=470dfe99a05047689102fbdc5695b906
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=352bc66dee28be2f6e75b85b90ef2b62
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=7bd4618ebb69db2aee75cc456411e0fd
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=7b32bdd9628e24a62c707e68a2ae87f1
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=6b850042a40d6cd6052dba2505e2e722
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 28"}
+- Name: Allarme_29
+  Id: g=8b48d0c0eaa0434c927f2c804ae78c4a
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=44c98c1256309d56bbdc876f1b93f7c1
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=96b49fbc8b06db4927885914faacbff0
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=b790c7343e86c33e0520fc03a88d1891
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=8b56b9864606ca532e9a52b805b4f405
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 29"}
+- Name: Allarme_30
+  Id: g=07c617a17f0942098c6f543e5da848f9
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=cc75450753e5a3d445dd58136a379d03
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=e937a16a319ad6af514b5b4cf82b1411
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=d60aed9cabe87393d86dbd9ddfd34607
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=6052a8551a3e9fd9d99906ea9f7b4129
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 30"}
+- Name: Allarme_31
+  Id: g=90946154ba6b492fb6d50bc692f70a1c
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=f4c04a1a7b602662c3ff3e2edd64c107
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=4301c877240a000c14b4b4013d186ea5
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=0eadd6df606894ab59a96a31e807ba61
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=169ca05193590850c9703d93438ddfb9
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 31"}
+- Name: Allarme_32
+  Id: g=21523b719fbf40389a251c10186d49e2
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=8f17a067a39ffe5d458abb782bd0d4d8
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=22e4e3814ab52112382d358bc00f3d75
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=b1940e5d540b5e31139e624ade2570a8
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=cd400b89a7762d55811a0a447e4b9248
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 32"}
+- Name: Allarme_33
+  Id: g=f8e3fa5316c44ba2b171f4146397457f
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=f593a72b8dc0c545227739e6d2070ba3
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=cf274422d83d92edf94c601a3f220c00
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=532e01b022939a022f55a5b2d39a29e8
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=9726975bd9db9d9431a8a3ac27c3e48f
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 33"}
+- Name: Allarme_34
+  Id: g=435cb1928a5f4d899f5fb1f7dd1f05bd
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=35cddd36e5dcfd1824395a02b24e1223
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=679c3f1d073e46c8082c031739cd0bd5
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=db9a1c79a0fad0e3534cb048042c1053
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=c625ce0b5cd062c9d3b09cfa37347337
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 34"}
+- Name: Allarme_35
+  Id: g=903b5ae5a73e4e8fbc844eb800a14fe9
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=03dee8dbf3854d63baf349c69284a15a
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=e20e9ad8157bdcfdcc0747b595d7d7c6
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=d1d523515fcc3227ff463a7faa500ce9
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=8140e900d858f408e762c281de5cff1e
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 35"}
+- Name: Allarme_36
+  Id: g=dbec1ba2bf134f988e44406015f675d1
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=f6bbd20d94d8fa1f394903899eb72e7a
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=02bcb78ea489b679dd0fd752eb78e29c
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=3af7dffcb4fb2145154a5a1dc18e33e7
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=9126914991432265dd3c4591a8793a04
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 36"}
+- Name: Allarme_37
+  Id: g=73e802c6ab224cccb0e62d2a3d064939
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=e56259c274c73fcff3bea1bb4fd015b4
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=988141aabb942298669d26d9da91f176
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=001f4833eb70ceffadb6181173c2a708
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=53976eb210dfb4d36268843a44404aa5
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 37"}
+- Name: Allarme_38
+  Id: g=8d97cf28ea1d4031bb0a9e6be78072e9
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=a4ba62994b9d8a7e46cfc8a87094c2b6
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=a8c90ea9b7d574a16068a5cd5d3d6a1b
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=46b1008dbaf053de7885c18832d35759
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=4e9798ed000c6222726a1734bfb01201
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 38"}
+- Name: Allarme_39
+  Id: g=946be174da2b4d2eb1c22567aaf5aa9f
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=26f47e716ec2d5b55d7b1ff6161e3f10
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=06393fdc2b53b3f3c55330683d8fe3b5
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=48abebb67c0cda83d4c2d5b483e62da5
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=39ba01fa29f2ec447f536e7796b062fa
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 39"}
+- Name: Allarme_40
+  Id: g=d6314a4f71a8433bace52736b4fc90cb
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=f2f2ed1b97f0ab69bc227c58ba4ce515
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=587b0883a84752d4c5c84668bb17e013
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=12c72f74c2ee9ca2371f19819ae70c20
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=9d9f127822ed8a52836b0dfab24c93d6
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 40"}
+- Name: Allarme_41
+  Id: g=a89370ce9d85437a8408052c0f5ac676
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=2b6c88540d0e647614469c20e541cc15
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=efdb4d661edac60dfa7f2b3987a55afe
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=cc77988f364fc0ce9d49818c85ed90c6
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=6ed9c89eb64089b1de4f9d3fad831560
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 41"}
+- Name: Allarme_42
+  Id: g=597c8f1289c94a66a71ea229b1f09f79
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=bc683f7ff2cf88c3a4f2c1b7995a74fe
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=f200d8c963043b41800ce8a19083f46b
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=c924338c7efb188e0b0ce2809b9e7165
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=41d07c4c481e77f55dabdbaa9c54a2cf
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 42"}
+- Name: Allarme_43
+  Id: g=2086494f6211473d994179728b109b3c
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=b33577b986f5313426921ea30946f055
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=013d85631934c4735d375aefec20f8ae
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=a9af70fde5b16d48d7ac7349f9c3269b
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=c73794e81d134943342d0763401e3999
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 43"}
+- Name: Allarme_44
+  Id: g=767b8abd9d324c6e9d5a5c6d7aeb4342
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=b8cd5dcde90fef28fd81083663eb4af6
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=5e05dc1942e7ef096a600f0bb6247d56
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=801e09e536fba70ed4436e691321106a
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=dcba47c11a39c77ac3dea336aab7638a
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 44"}
+- Name: Allarme_45
+  Id: g=7623e7f566ab44528a38bf801337a141
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=8491009c4c7a92a86e62b635cefef607
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=29f79a69c6f88166ec81ea890166388d
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=36b5f3330bc7daf092a86d08eee2cc79
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=9364c7858d4b45b478de0b03acce1c63
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 45"}
+- Name: Allarme_46
+  Id: g=180a9fca7f8744088dc4806b4e6f059c
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=9fd61a9cbd784bace23244a22a0211e9
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=b57e77ed172866fbad8e210397bd344b
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=ad064b96514b46aa2b07369651183a46
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=71b172af41f2572f49021ded858dfa08
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 46"}
+- Name: Allarme_47
+  Id: g=c7cb6bb78f2d4d9c98093f66e539e696
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=2ac5a0ab7b41602a329d4f91e638a3d6
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=630f4cb3dfcaebb2486d05eb1a52cbf8
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=c6f16dbd64b10f634bc9dc12e9d17b67
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=15f89596034bcb3b82c064d1cb175d42
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 47"}
+- Name: Allarme_48
+  Id: g=8dac1422b08b4b278982d8a737e84ae1
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=ea8e2f1d8dbc999ae48a3570f8de0c2d
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=520c3e7dec5d4fc4ef132e06177f2f34
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=39daf11455ea437e4e6439a9b4c8903e
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=d249d35dd4f1e7141da2218711707060
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 48"}
+- Name: Allarme_49
+  Id: g=54f874ef60e04bc9b1a6966fd3ab0e6e
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=abd12e5b976265928a06d6f5ec667146
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=768322ccdccddc438a832735f154f8e5
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=d3939af3eecfe973f50dbaeea56e2aa3
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=383b06e1525fb41b857065d14ff887ee
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 49"}
+- Name: Allarme_50
+  Id: g=bccc120de92e4e7db36e8d28d740c3bb
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=afdb246f20a15c1775f4ee560e1d269c
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=51c11364fcaef31b250f67d28562c927
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=b033ca2c05c4b8c93f915ccdc7247e5e
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=defbcbe46b2cfc4727409eb10ee3858c
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 50"}
+- Name: Allarme_51
+  Id: g=00678bc3a13d4486913a9e18f2b40b8a
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=8ab98cfdf118cce834cf0dbd9526d608
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=16b60adfe8e43172936182de7dc80bd9
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=40f192762e8321822b806c8c41a8efaa
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=0ab6b33e39861171f97725520be89c2f
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 51"}
+- Name: Allarme_52
+  Id: g=345df13aa3854ed38876d3819c371572
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=6ec431cf525d5395b97c3d02f54c6832
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=0ae4f3d8147e624bc8100fd975b008a6
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=a9a768a14e3f5597f10efde56ceba7c0
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=31c16633de174ac0d467e32cfc93aabc
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 52"}
+- Name: Allarme_53
+  Id: g=4ba16f96ba56409b8e7b195e55b46c73
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=806e7e1a4ae0113efeb5a1f55e6e171a
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=7fade8634b7f6f0e7ff0c082f23967bc
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=bef3fe43b1f8a90bf249247711235a54
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=352a3bb7c34a4a14e049899e94af4dc3
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 53"}
+- Name: Allarme_54
+  Id: g=aec4fd2fd1eb4b54ab57c71f8449e046
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=9adce8a433a5841bfe0bbc872f563eb6
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=a05dea409fe56de3781e0e67faf73a02
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=7549c936c11455dc188099ac6bbbe091
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=3e52fe7a8b939eac6ca3c7566910ad8e
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 54"}
+- Name: Allarme_55
+  Id: g=2a040356bb864343813bb1f8f8215317
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=69ae8594ee34de2cca58530fd0521108
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=fb8fd43d578c30b874c73b3a4ea2cdb8
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=fd09773104bcbdc71586ede5ead86ff2
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=71b7baafcbf21d07b5442e619dd5a5a9
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 55"}
+- Name: Allarme_56
+  Id: g=cdcdc0a18ee247cd9b573d1b4364fef9
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=17bb8358cb7a48f62206f6c880bc0c3a
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=cae9f111b5069bc2faec35cbb8b85655
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=e8d0294be6c06c7a628126cfe27ae054
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=7e1fe33ef2c2bda3a5653c4d888eeaf6
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 56"}
+- Name: Allarme_57
+  Id: g=cdf784446fa242e9b653494afa54aef0
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=8dda50520ee9ca9cbd3397caeddb9692
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=da0f82b71b45c074faafd1454f130bfc
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=3e18650de40fd209c0b95722270617db
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=705a3cbfc0e5da8295961ad9e7e4405a
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 57"}
+- Name: Allarme_58
+  Id: g=d9b22f924e7540d0bf98bcabdb3cf66f
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=b2605a6f6c4e4204def53c4e5cdb54ec
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=7d6e7705d4893cddaf8d007cd7bc7869
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=59048e9bc1946569c7a8d2d86f63e46d
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=c8567818288191db0963e01db4f9f90a
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 58"}
+- Name: Allarme_59
+  Id: g=8641a642aa2a46d3817b83528f3af2ac
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=95ba6469b384e1433bf9ad6519922bdd
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=a59eeb3840f848be9b530d489c048701
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=6b9b16b3b37616cd15361669e559035e
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=0502d137419447b75ed821e27fecab78
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 59"}
+- Name: Allarme_60
+  Id: g=92b38f43906e46648915d950999ea649
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=17191eb9ddbe11bdfcb692f65e0cf79e
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=3048fb8a36ec5053e7453963107b3af3
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=bacdbf47efb6ab0afc1201aadb212c5e
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=6544eac603fc8212c04332428edcff72
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 60"}
+- Name: Allarme_61
+  Id: g=190f5879c45c4c3dbe8e1a7cda042d38
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=07518e62b28c7131dad6e467cdd727c7
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=8970d743e29d3251be41598433f18a24
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=2b92ac97357e72ee07f07fe83a43172f
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=afa85316851d02d68c16d944b7c493c6
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 61"}
+- Name: Allarme_62
+  Id: g=3094b1c5773c4fefa7fd92b3a6cde4a4
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=5477a024dd17000987a27c94dee60f8c
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=87012a149b869a07302c931c6cf66377
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=97f37618b61d74f5453a9ac8b7f59fd6
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=3dd80095c9a4f9bec2761131bba8e9bd
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 62"}
+- Name: Allarme_63
+  Id: g=2e566da8e5734c798edc99bce8c0b526
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=fb7311484524cf92bb005ca39cff65a5
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=baf953c1a76f6a5935785193e9aaec87
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=7946ff825230b92b7b0ffa1885450850
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=69d071367773006d3c68f59e16c75f90
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 63"}
+- Name: Allarme_64
+  Id: g=bd072b9004924ebbbf2a0211de1ff710
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=5e3fe8eed061c8277d9924b638695c38
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=398d638caab9eaf0e3d43fcaa6cd7aeb
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=0fb9ffd3a81082168d2c10944bfd360d
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=3572791ae69275d2d76cc130feba4e41
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 64"}
+- Name: Allarme_65
+  Id: g=41c9a10be9974e039916b701bf41f91e
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=a78967d4fb1d3b3d3f5c429d40578151
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=32720bd60f13b5c74fb5c89856a1b17f
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=65a48d26db3c8e2a04f39aa3b56774d4
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=f7902b2cb015823a023c1b358a936e44
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 65"}
+- Name: Allarme_66
+  Id: g=316cafdc03974832a404c077c897b78e
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=127492ca77b42f740b47b5f614e41ed4
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=a857f79e7dfcc6f64b1a04ad58de48ae
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=fc53559dd58e999079aa69b432ad17f4
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=6b45cb5d1b814cae50d16d07c97eb751
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 66"}
+- Name: Allarme_67
+  Id: g=8b11652c40d34842a741c9e1fa9c036a
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=747db6f4386ec426982dafdca7bba35c
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=47729f425d11dedb1977ca08456874e4
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=808170f9498362af256d501143142297
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=11b589b9381a9e33be05c47b1caaeeb3
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 67"}
+- Name: Allarme_68
+  Id: g=85c4ddc780bd468f88ffa37c08ceb54d
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=ed897156982f2d0da81f07f54cb1d387
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=c9b0ddd44896dd8375ba496584f27b9c
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=60f34723fc4c2c40d22274aab16e5919
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=dd3254738b7a78ce7382939d61948c18
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 68"}
+- Name: Allarme_69
+  Id: g=f615a364c3f7416cadd750f4961c1c61
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=e2cd2113df769930df8d5cf7fa7c9001
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=2609df6c0ea8b00cf232bb8da7926099
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=6bfd4f66e11babdf235e88eec2d7482a
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=c428d9873ba55d29c236b3619ed3de88
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 69"}
+- Name: Allarme_70
+  Id: g=b17774e7a41141798a86b15187204ff4
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=3b37350ed6c1ff019d6dc17ca3fee135
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=fb30e1667b8c7150732202351650ff2a
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=968104d1839dfc6731e4531d885fd1a7
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=1efa8f4f647ccb6b167f9153380e361e
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 70"}
+- Name: Allarme_71
+  Id: g=2512c75598de42baa6f920d742df7830
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=468fdaa166758c2b16bb3da8eaaddaad
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=5a3011d508fcf29ff654a610fd7f0422
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=3ee764bb8d9a3d89b4f2030c9a4e45c0
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=dec254e5dc97eb1386be2644914fbe8b
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 71"}
+- Name: Allarme_72
+  Id: g=f4d375e90e9e43a19a32d7d85dd7685f
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=9c2cbfbe8f9c4216085d25a429b7504d
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=6088c1343401a53f91c64aef7aef2a35
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=31865ecfe80e375d2b0b38e6f96f1b93
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=7f43247a5ee2f7c53a9b8cd61b5cc6e5
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 72"}
+- Name: Allarme_73
+  Id: g=9c3e07d2345a4483b2cba5ea946b63b8
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=0f37f076795a0cbd1f3bbd89b6423792
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=ad1f70434365562a0a7a12ab0f39a66c
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=93c6ca41fa5e41b72c1072fb96358a7b
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=0867165eed3c62c0168bdc893345bd06
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 73"}
+- Name: Allarme_74
+  Id: g=ae5a576369474019a7ac1bba4212cac5
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=8831777eabc092f6bce4a2ad019209da
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=953138d2cbcc99fcf624ff8305e63dbf
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=b28fe6cd9c5dd011171f9c9f5be15e59
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=13132f979bef29728168476c9e1d9366
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 74"}
+- Name: Allarme_75
+  Id: g=61d57fac3f404629adbd1b8afa6f4c90
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=744c3b165f3b564f2686078f96a928e9
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=fe37fce41c09fc53dc205934c0be2f81
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=ad06767a3aedf06c07e169093204fb48
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=380fd0b65ca68663290ab1d3cc865b9d
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 75"}
+- Name: Allarme_76
+  Id: g=cbac6514cc4348bf9a1ddd7077e96c07
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=34a5709b74898cd5f51a3799a711fb22
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=da78dcd338ccbe4b80d97ecf4d19c4b5
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=7523e59d93f3891b0e631024e3b132e1
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=11a71b67423e45e3d2a36fdddda94f09
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 76"}
+- Name: Allarme_77
+  Id: g=d954b98e1faa49d08104756fdced9da4
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=e084fac193f440994843fc5817a93fef
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=18ede44c5d65b923a658562745c1a7cf
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=0e613037ce09f0501b2215e667c473bb
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=6c1a24e99c2d953cd75c938c04c8dfc9
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 77"}
+- Name: Allarme_78
+  Id: g=1def897cb69c44898400774a3248ac21
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=698f69a57b190e90cddbe84c7f44d1f0
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=e55e6923f36623e78a8c07d8e3e15666
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=5bf0e3b19237c7623cdd7899b26a8d36
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=3db969fa75e4ec729e552784b9af755c
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 78"}
+- Name: Allarme_79
+  Id: g=41948b5062f146a5b3ef1b07a3462328
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=fc89520fbe57b71f3bec6932c3b86ae1
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=d36c26ba33301833f73ff00670b9ba1e
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=ed9f10d75bc43c09a5c76978e70af296
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=6898b799e6dbb184c9aeb58bcd9582bc
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 79"}
+- Name: Allarme_80
+  Id: g=8078034ddd304cd0b6e7699c5c4a4f80
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=d73f33310f85568a3ea3a3413915f27a
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=93fbc31dd44d5dd922afc8694354ca84
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=5e776e2644be7badb3c79460922a177a
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=d45a5dbc61fec251771069b6803417f9
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 80"}
+- Name: Allarme_81
+  Id: g=c494db591d554b39a649cca7ecb9deba
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=1f63611a74d75f6720909eab5d363e5c
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=adbc2f910c96229d32bc9114d54a79ad
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=e4c643d35048625e5d989e858a24d868
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=a0b93ee06d94bd3520d3ad37af958218
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 81"}
+- Name: Allarme_82
+  Id: g=c4c3b009e3ee46feb61d5f08bdf71d83
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=69d43c5b9404473be9734b6a9ffe65cc
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=d8c577c5b668b294345710b2a5d6eff5
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=be1767429e508be718b17e8f0c6f3ccc
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=ecee4f4eef7769938f5e74967e5efb44
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 82"}
+- Name: Allarme_83
+  Id: g=d42664087dba4f8c8af21a89a996ccaf
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=75014a98bfae8c7039c69d3b3efa56f9
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=13aac5e7a7fbcdbeb147cff68190a71e
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=1f8b6484bc228c86b1fed9e439090aeb
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=8fc1d8f48659e1d4b41e638f82e262a2
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 83"}
+- Name: Allarme_84
+  Id: g=b81c3b5852114b449c2ae1a2ed0edd9e
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=09fa38bf0d83f0c1bba92fa30f73bab4
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=557bf89198443e9f2083bc660131c6bd
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=9fe55c1d763505dfdfd288569805f418
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=7cfad2b24eae1c93ffedb4026288d444
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 84"}
+- Name: Allarme_85
+  Id: g=97fc0d3d7bcc42b6ae8940279b86e51a
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=547da8f98bbbfda70c3a962b10b79bd9
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=d52895620867a53184c171680812f33a
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=c9caee468ff7cdf4c15906cd6b8dcd60
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=30fb44423e450a544c64eb52c6fc3109
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 85"}
+- Name: Allarme_86
+  Id: g=cd087b498d134a47a6b139a3e4bdc23c
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=5eab1c34ca2c7adff297ecb5fa002d9c
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=cf089a92272ec2c39b1cd523e64d9ccd
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=eed7d0dd74608734ff42935df19f1e3f
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=a0141aa7352c4337ba7dcc007f236d69
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 86"}
+- Name: Allarme_87
+  Id: g=fd173cda248146308c3e99113bede780
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=d90e88a99569183535c47c8371bd2bcd
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=ab72bc5bcf3ab5071e09fe56b4d9e05b
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=8c97e22f7ffbc5f248560634f66307ad
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=a4af789a03a07bc299e90cb5bc99e12c
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 87"}
+- Name: Allarme_88
+  Id: g=9f760e932c2941489afc874d40669913
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=4255d3d92b8e5100353b792e36ac4df1
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=b9a4b388c8adc5db5154202a34aa3d8a
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=744fb5a7d30551ebb46df35db9d5e313
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=4d0237875749f7b543dc3b38fdc0d7e1
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 88"}
+- Name: Allarme_89
+  Id: g=b35a7bab92444fcf8889cb8a9024474d
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=b3f123f52781cca9eb27d376d9cb39b1
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=1880b4c11ba779f31dc733c76e29c4a9
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=512b2a0a753e82fc573cd220c79cc803
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=b1faff9d549f4687a87ea16cf214f548
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 89"}
+- Name: Allarme_90
+  Id: g=c962b12d9c9348cbbe93bb853a14079b
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=47d284fe6976bb9beaf953e850468718
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=3432db389a68ec41c2b3ca15bd26fbaa
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=a0fec04b19faa56c71b8a17a14a94ad9
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=9cc7e391203a2f6c83c05035d4444c78
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 90"}
+- Name: Allarme_91
+  Id: g=7087e58da9524ecc88979fb8edb213b6
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=bbfd2e702a52b7f18a822c2e51e48515
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=62f3fbd7ed4d78d1c65ad0819820fa53
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=453d704f65e956a40a38d7bbcf3fd748
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=b60f79a1e4f9beaae848367af507acdf
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 91"}
+- Name: Allarme_92
+  Id: g=efe9f86d53104c56a023a0592baaa4e6
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=f1c0f2506b6e906d24100ab9e3af0a1d
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=430d009909d3202416e24db2745d4b5f
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=96495c357085c0496b61caa21f7f26fe
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=812561e6b5b185216d9b248a0aa241fc
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 92"}
+- Name: Allarme_93
+  Id: g=e72b8bc64dbd44f2babbe5cfb0aec144
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=f74d8ac67e56ffb28cfd153fe8d5b974
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=6fe0ebcad2ddcbfa4b976d8029f21469
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=068cd8973f3bd4dd753118b5f224a9d0
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=393ff9096ef3d0da88119fe198498668
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 93"}
+- Name: Allarme_94
+  Id: g=a5b67269022d4e11b458e4b3a525d509
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=5c6b98336a658c7d8e88684cff154bd6
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=33ed0f7e69237fd7f054769a2be0e955
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=bf2f916a85f4eca74b7bc7b30ac77bc5
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=67212f701c71b825e89d4518e12e2b6f
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 94"}
+- Name: Allarme_95
+  Id: g=4e8d5cd388204ee6ae09b77e659ef73c
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=ea85e6248ce20cde13ce42fce6fafa53
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=49bc2fb8a58e114c4320e9d378e239d2
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=af945e505201e61f716cb324602ca07d
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=a4ac14ce81b87ac011a80d03c57f7e0b
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 95"}
+- Name: Allarme_96
+  Id: g=e448d9439fca41c09049c954f5000d14
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=f627d230b0543fba840d78f8914363e8
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=77e315f85bc3a043bc4ff768ca2d63d5
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=1c320019b68e23527e4389cfec9325e1
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=caa10b12c88fd7668e3f069ac1bc35ad
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 96"}
+- Name: Allarme_97
+  Id: g=dc676e8b22dd460cb075e9280b192905
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=d35e4de8f12eb21140528e5850fbfa29
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=a481af83068159b600b39a381836afc2
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=8c359e8abaa45f739dc59bc54f05b99e
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=ed94e4e3c4045a54ee91d0470375a0b4
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 97"}
+- Name: Allarme_98
+  Id: g=c57b35c20b49476daaf173095b47bfec
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=5b107bc06fafb124a3474c4ef33b6479
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=569195fe98bf8cf1ea63e55a9c5698f6
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=297ac9c0620499bb0ea7cb9ab8463f72
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=8ba76fce6c4ff97b9f2d1c7226f2b5c9
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 98"}
+- Name: Allarme_99
+  Id: g=ad5a7803e84a4b17a9f2a8c4632999a8
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=6c74ac78d9a3ebd6f296581e59528ea4
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=21252a18b51deb24efd7260301cac3d9
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=61be0df2bcefd208c529d140f050aadc
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=ee0c399fa54739b6788e38f9b58fecdf
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme 99"}

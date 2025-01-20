@@ -1,0 +1,3241 @@
+Name: Tags
+Id: g=85007d8b591a249e3ea11cf5e1773c82
+Type: FolderType
+Children:
+- Name: Application
+  Id: g=f49cdb1e134dccc186f575377256ecfe
+  Type: TagStructure
+  DataType: Structure
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "IdType": 0,
+      "Id": 0,
+      "Namespace": -1
+     },
+     "Body":    {}
+    }
+   }
+  Children:
+  - Name: PLC_PRG
+    Id: g=5279f6832cee9a2f040d85dcca6ed03d
+    Type: TagStructure
+    DataType: Structure
+    Value: 
+     {
+      "Type": 22,
+      "Body": {
+       "TypeId": {
+        "IdType": 0,
+        "Id": 0,
+        "Namespace": -1
+       },
+       "Body":    {}
+      }
+     }
+    Children:
+    - Name: arrayBit
+      Id: g=f6820f69a32947cfc5393898e2e70713
+      Type: CODESYSTag
+      DataType: Boolean
+      ValueRank: OneDimension
+      ArrayDimensions: [10]
+      Children:
+      - Name: SymbolName
+        Id: g=f0022f63999e5a1edad3923972936f1f
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PLC_PRG.arrayBit"
+      - Name: StartArrayIndex
+        Id: g=e55363ef4e8463ca1cc3d88ec2c92924
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ValueRank: OneDimension
+        ArrayDimensions: [0]
+        Value: [0]
+    - Name: arrayFloat
+      Id: g=40a627a9a9392553b1452f0a15d0683f
+      Type: CODESYSTag
+      DataType: Float
+      ValueRank: OneDimension
+      ArrayDimensions: [11]
+      Children:
+      - Name: SymbolName
+        Id: g=a11b22cecfb5cca8b876bb5ebf59c0d8
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PLC_PRG.arrayFloat"
+      - Name: StartArrayIndex
+        Id: g=4ba7ba4d01f1a48176eb2450bd63379a
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ValueRank: OneDimension
+        ArrayDimensions: [0]
+        Value: [1]
+    - Name: arrayMotori
+      Id: g=7056e2f6e32f89c18826558ccc40b4bb
+      Type: TagStructure
+      DataType: Structure
+      ValueRank: OneDimension
+      ArrayDimensions: [50]
+      Value: {"Type":22,"Body":[{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}},{"TypeId":{"IdType":0,"Id":0,"Namespace":-1},"Body":{}}]}
+      Children:
+      - Name: 0
+        Id: g=78fd68e3928258c9560d78b57f7f4347
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=574d5276dcb6683a9330fa4eaa251562
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=e881224b9568f2e9bed1cfb3e7cd78da
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[0].frequency"
+        - Name: nome
+          Id: g=85e3d0f7415dd86c79c783e6cef7b078
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=5b43053a4d2658602636b914142c2cf5
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[0].nome"
+          - Name: MaximumLength
+            Id: g=eede1996951becc27d6c67ec6aaf73ff
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=2c5515365201b45d96ec555a5b9dfb06
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=43c8f6fe1c84c5c2552bc08c200cda68
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=d384dea983b4b8170e6da227a6fab049
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[0].speed"
+      - Name: 10
+        Id: g=7f34523b7d600f3d1d93255907b80cf0
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=df9d405d581bd7fe8cb18f8ad4aa2221
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=9167a9f4c66492ac5f567d3ae16424b0
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[10].frequency"
+        - Name: nome
+          Id: g=5655fb866e45311c10bfc44e8e16bfce
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=4734cf5b0d33038410f26fd76bafc72e
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[10].nome"
+          - Name: MaximumLength
+            Id: g=ef57de54915dddbf282db3d3dda5dee1
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=193cb4e0b138a3222b5e5c0a60911bb9
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=a7d9c01e5d0aa35256ac271f3dc8a905
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=7c5c3fc3236f073589a5e64f207306b7
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[10].speed"
+      - Name: 11
+        Id: g=6c67745b38d48e1e5df8066e25c395fc
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=57552e15a20de8f73f60c96cab62aa40
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=2d5f77be5fd7b904f53fb69856037306
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[11].frequency"
+        - Name: nome
+          Id: g=02a9ffa01a4ae2a8e40cb243ba5abcbd
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=f3d33e5e3b970fed6459d375572c14f2
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[11].nome"
+          - Name: MaximumLength
+            Id: g=96ffec36cd5901f21bbde5ff2d9fa402
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=7ea11112226ced2b66043dbf9a56c59d
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=e985c9299f0d8216d6ab9e05ce78260c
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=29aef3fb33499f5ca759eaa55a9637ce
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[11].speed"
+      - Name: 12
+        Id: g=3f50463d7975afbacc35c716a5a51953
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=f806146135f761df0b0112d5e3a738a0
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=4f72ce48034751a50ce75024e13350a5
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[12].frequency"
+        - Name: nome
+          Id: g=547dba97ef3b14aca72ad3c1b96ea560
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=6ac4e48b7cff07b0d416bbef7e2b1add
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[12].nome"
+          - Name: MaximumLength
+            Id: g=6846705964ea6353e686868eabcfca4d
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=d5460a3d3c4ad32ca5554445e9f9abd3
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=91eaa3fd5b1d87a598db484806258ed8
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=842120196cf307f4ec6af400706a0a2a
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[12].speed"
+      - Name: 13
+        Id: g=70ab56b1fe877bce010d516fb0b22dad
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=3a44bc1ab15abd71b87011a69ad31e16
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=5d25194353900e04b8c40785bf428b3a
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[13].frequency"
+        - Name: nome
+          Id: g=50c894ee412ffb618b604ec7427ba32a
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=d55ae4aa840cac690309391fb96febfe
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[13].nome"
+          - Name: MaximumLength
+            Id: g=78ff351154fa586fd421158874681906
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=6bfc235b44c93c2175ff435aa0639dcb
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=6e853c2192437f52d0e003a3e261ad7b
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=973a381231328daab74f863b190ad1bf
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[13].speed"
+      - Name: 14
+        Id: g=7180ea951212e8617957b52df8253983
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=c6eb1d029ac5af57b8b0017f3d708a9b
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=e69804a080aa1c060709b09c157fbba5
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[14].frequency"
+        - Name: nome
+          Id: g=ee7c822cc1b2414528f4cd45b5f47fbd
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=3556b3d3927ab62801a2b640253a1ce3
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[14].nome"
+          - Name: MaximumLength
+            Id: g=35edd3ee2e67aaf8b0c567c2ede51c19
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=c38271a0b28b81eff281005557e15b2e
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=9e405fd802c2b1db2de0670e5a12227f
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=646f9c893f945c9df3590a52cb5081ef
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[14].speed"
+      - Name: 15
+        Id: g=69e5a708bf0e5b306f3937a237704e57
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=fdbcf659255f8da099f541915428c222
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=8455cf8a1856a723ab656b61bb6a1284
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[15].frequency"
+        - Name: nome
+          Id: g=61a90971dbd67b4d33096d0080c4ca34
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=81db38859200488a585e9e922f744833
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[15].nome"
+          - Name: MaximumLength
+            Id: g=8f45b91d2a9d21b128e03f64fd582a43
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=49c83ce0bf740d68b5595995ba5e9008
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=776ce9afc0276d1b074137d0440e2472
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=c083843a5bae4062dd7c4109b9c90e3f
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[15].speed"
+      - Name: 16
+        Id: g=fffc8f3f985639d8d587d8c41e5a2f73
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=2a0a44c61261eccc8b8d3fc73146fb5c
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=160c338412f7a42f8cb0ee7b0b50a87e
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[16].frequency"
+        - Name: nome
+          Id: g=d65f5e486937ff5ca7cdf0264d977c44
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=a5aa49ae3cd793bcdfac1bde3b0f0540
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[16].nome"
+          - Name: MaximumLength
+            Id: g=a96dfd7b1a6860b91173c57cd38ba05f
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=f9cb445ef05f9a3f3b243c7d44d3f0ce
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=d12ec89379b90f3709f296a91e3bd395
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=884caf2410f81a76b72220bf4fea4790
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[16].speed"
+      - Name: 17
+        Id: g=c9629254aba5af41f13c4578d868d74e
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=56e09f7fbe2fb9c69effe7f849bbc13f
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=c1c2a4d2311aadb96527381d408c3dba
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[17].frequency"
+        - Name: nome
+          Id: g=0f8ef548a3d251a2215ef3d42da4af36
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=27b655458b809c759cae19548c76cb01
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[17].nome"
+          - Name: MaximumLength
+            Id: g=3c5257ac40fa851567b70456823477c2
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=a316154633081d36e474ba7a0edbc9d3
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=0727e7b6d0f0a3353ad42804e95731cc
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=f69703782798ad8db09eacc05544ebb6
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[17].speed"
+      - Name: 18
+        Id: g=d6aa9c7111050cb36d162a4ba4956130
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=e0d9d0c35a2877ec3de35082eb830deb
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=55a7fb5f74c9a14e0dea82ca6197abf2
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[18].frequency"
+        - Name: nome
+          Id: g=f0fd25e370b0377ca0ad43f02cc77e6e
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=aa7564543da051d41536ef16c4a8766f
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[18].nome"
+          - Name: MaximumLength
+            Id: g=805bc6ded92dc347c5e34d8da941dbc8
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=16c262a2b68a04d30322eccf3999527b
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=08edfb6f4449129415ec48426f8f8f89
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=03556dd3c5b957970ff49adf22627271
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[18].speed"
+      - Name: 19
+        Id: g=51a3137d09b6e1cfdc16b9784c7bd6e7
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=072296373f92192124cbfb23d4b2f474
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=2922efae0988bf4bc1aebed72016684e
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[19].frequency"
+        - Name: nome
+          Id: g=6f7c1f3ce2a43f110ef7992a67f25b33
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=987a7fa6371f8154df525addbb496e11
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[19].nome"
+          - Name: MaximumLength
+            Id: g=87623238f9aee242e4b8308517f235f8
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=3e3943ed45556a44a572c5d455fce7e3
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=d1c4a23ef876615ea1d28554cea29d9a
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=321d0ab8cdad4b6ae8fd9f5cc9166fbf
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[19].speed"
+      - Name: 1
+        Id: g=0e8557a5984f2741c4f210a7f0d31213
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=46561c1e0923a0893eaef16885c044bf
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=927438fa1012a7f8f7f1db544a10f107
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[1].frequency"
+        - Name: nome
+          Id: g=cd548c43f9dcea8951d5b2b80ea327f9
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=dec5a9e28060da80d9051d0f2fe92e3e
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[1].nome"
+          - Name: MaximumLength
+            Id: g=70ac8588588b62438d2bc6036cffa2d5
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=dec5efe948ca28e16189028fd34a419f
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=ab8352ae79ee7e180322e44baf6df216
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=13c594c51e03c41878378b6c949681f6
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[1].speed"
+      - Name: 20
+        Id: g=1bd5455e6610a7b202101a5381330d48
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=3422bd55435b545ff58706abaffed711
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=731ebf99650c415d5f685cad54a84957
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[20].frequency"
+        - Name: nome
+          Id: g=3d5a8d1338fc83584adf2930344b6aa4
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=05faef5e442f3846ed2c9440e1ad61ec
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[20].nome"
+          - Name: MaximumLength
+            Id: g=99ebf7ba551ee2975201ba06ea5916dd
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=b2a967d025b0939823b7d315c6d74d40
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=8c0b4e95087b2551ea3849723e4b1c8b
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=a69e8e1577a2060d7634fa7a08dbfdad
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[20].speed"
+      - Name: 21
+        Id: g=325c673c8f8d63c558282b3244fa6c0f
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=f7aaf85537180d5a232acd86314ab2a6
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=214421597082248f03b5efc3c5b77ef4
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[21].frequency"
+        - Name: nome
+          Id: g=f25dcd2b482f6490dd2690bfc154a3fc
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=c5dcdd0f6819093f86946878f072bc54
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[21].nome"
+          - Name: MaximumLength
+            Id: g=a8468e3a4ce1279a8cc5ecbf8c48f88f
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=da580962118c796299b2bf0c7cb17566
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=707ecb05698e5445ae81a903bb74c9f2
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=b148e4a6bebb28949412e284e60b9ef4
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[21].speed"
+      - Name: 22
+        Id: g=f61860dde89297624d7141544cb9892f
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=19cc66c9b50ae231c21d1962b72e5386
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=7fedf6e46c84c279f13213e5b2a47ccc
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[22].frequency"
+        - Name: nome
+          Id: g=ee7d0f321177edee0eef1b52ec169177
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=bc0aa1b1be38b940cc86a504f5db7058
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[22].nome"
+          - Name: MaximumLength
+            Id: g=712390d6532bfdadebe916edd5efdc9d
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=e3ebfa5fe667150c6bb289a6d5f8c926
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=e21f31e7880b6be99a627d4391de744d
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=38cee0ea6c25c3586dea7de31f7997d6
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[22].speed"
+      - Name: 23
+        Id: g=30b3a6abbf2dd4d4933505d77687fa69
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=e9b3df1ffffaf5ddaed24656017d7e63
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=cbb11e54bc380d23f3ecfcbc770eb81f
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[23].frequency"
+        - Name: nome
+          Id: g=9af77fe2d49bde91ba313ea950729252
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=ae4528f1671e23bdd35c3b2e76641488
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[23].nome"
+          - Name: MaximumLength
+            Id: g=dbac6112ad40cbb7e164580f61f8b01e
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=732afb4d57c5cdc20d7bd89f35f1b63e
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=a4a007d3919405c44c542df8122d17d7
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=4b83dd093ef8ef4d0986a206deed0c57
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[23].speed"
+      - Name: 24
+        Id: g=79347919c10d185032ec58bb230ccd9b
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=cec4d9473cee3faec047e8c66e4c584c
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=4470e14fa3ff59d0d64494d67ff4bdba
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[24].frequency"
+        - Name: nome
+          Id: g=aa74ddcbb2c3197db6582a35f230c2d0
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=64e308640342c9f0a434ca9a7798bd40
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[24].nome"
+          - Name: MaximumLength
+            Id: g=eaf8c2a0ef1b75feca6d6c5ec4ba397f
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=898653881cf133be8246794c124c2b1b
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=56ec451745070ae15934e6ff277596c7
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=f26ce02c93a48d0c3433001cbcc18abe
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[24].speed"
+      - Name: 25
+        Id: g=848e4bca6d70db566d2aea5b6b658ac9
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=35c4f08e98642bf289fbed75a7b8857f
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=f0004feeedcbf7f7195f23739228b2aa
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[25].frequency"
+        - Name: nome
+          Id: g=74ffc3ad39ee977c1d4ec56a68259dc5
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=06ff0fc354eaad223b68f84ed74d0a66
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[25].nome"
+          - Name: MaximumLength
+            Id: g=a0e4518cfe491e0e5cc993b5c7a59487
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=7058db321d6f164279ad206b9c13e8fe
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=14fe9c268be7771d7842ee54f5640c04
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=0a239605f2d0f02408e60d13d8fe83ad
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[25].speed"
+      - Name: 26
+        Id: g=5c9cfc8f9200bcc19dea3d2c07192c72
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=920cb98189f516437f1f0a7fd808e604
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=c3e18babb071d445235a0d45ad363baa
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[26].frequency"
+        - Name: nome
+          Id: g=01433a64dd113b4bab99ff87cde3e800
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=7086ce044ed857b547e8c4a6b50dab80
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[26].nome"
+          - Name: MaximumLength
+            Id: g=0a554581ce30103dfb273d3b7c7ed5a9
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=d6e88f9acc56700a470b850bf663d31c
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=2d4ba428681e2fb6f4b152cc503e7a82
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=4997fa9e257030ef40694fcc9b9db0b6
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[26].speed"
+      - Name: 27
+        Id: g=ca0ae76f9397873d07d66d01978d527d
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=5c500217f60cf41d04018e7240055806
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=bd457d7dfb1cf2721c5cbbdf2f5664ca
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[27].frequency"
+        - Name: nome
+          Id: g=51a32bbae7f51847843905e05735f871
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=912f11fd1b10b1b36f7e55420a8b75d0
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[27].nome"
+          - Name: MaximumLength
+            Id: g=41213107f9c93556db5a5271618f9bac
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=252fe4b32944bf3c132f55d5d04c14e8
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=31bfeb5b5182e1515003c3e64a94f4ac
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=699993c863020e83cf03772188df1714
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[27].speed"
+      - Name: 28
+        Id: g=b7a1ead4e08a5833c4c114d23c950b86
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=83332f901a0cf7c83efa190b3624d55c
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=e7985e9dbb7bc1f42528080471a91f41
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[28].frequency"
+        - Name: nome
+          Id: g=ee9dc3ce3dfd6a78103e7c4294888607
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=41bf1bbc232c07f885533326e861883d
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[28].nome"
+          - Name: MaximumLength
+            Id: g=3ff3bc147be77a197941a5077e4044c2
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=257b76ed6e6ec1f1fdfe95c3c27b26fc
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=bdc758a7bcd69924ae921606e8f98eb6
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=369829d51e5d37b43ac150b35962b360
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[28].speed"
+      - Name: 29
+        Id: g=7baf74d1495baf853fe3ec5ea59b3efe
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=bcef32b3ca5f7b6c27c9e22f2d92462d
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=82cc93fb7488a42a0700b945c9c19422
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[29].frequency"
+        - Name: nome
+          Id: g=bf7827e9c7267b8fe13bf71905831ed5
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=93fc1c530b9561272b4a516b3824e3b0
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[29].nome"
+          - Name: MaximumLength
+            Id: g=f34ada2a3249adaaaca28c2b97ae05d2
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=e0bc740e2f3d9c7e6d546f29bf8afccc
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=f5601ca95e11dd7e4be7d433bbaf87a4
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=6326a969b7812841edd8f9c906322e85
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[29].speed"
+      - Name: 2
+        Id: g=12b8f92900d183559a1622fe677a0c61
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=c97cc57eaa1a32efb8988349a6b5b111
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=b58676eb1397bded272e4dfb742f2ffc
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[2].frequency"
+        - Name: nome
+          Id: g=bbf5752196b4ce82c13effd997725418
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=c6f04df54153df6c85f8cf3e4316f6a7
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[2].nome"
+          - Name: MaximumLength
+            Id: g=c93916994aa6781f3b5e8a16d9387f02
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=8a4909b4642c5a453376ffa3879f1f0a
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=ada65633bd8375e94872d9d95f4ba67f
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=9dec0d3e5fc73312650a973c2fdfd360
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[2].speed"
+      - Name: 30
+        Id: g=481ca2325bda29036afb19cd234e5690
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=876185733b6460fd6f1c67fddef9fbd7
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=b76e7571bd5afeb0f47cc674e21ce83b
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[30].frequency"
+        - Name: nome
+          Id: g=ef3563ecc3afb715e1879067ffb1c1da
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=0f92aa9d6379e4d7852d31fb177f6224
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[30].nome"
+          - Name: MaximumLength
+            Id: g=17f5e8cde78fed26a145ee894d8a2be5
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=fdaff26568f93205d1c6824d19f04894
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=4c893cdf6ea5d9e1d6538602c63970eb
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=39cfabbb08e0eb5613518f17069a5ef2
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[30].speed"
+      - Name: 31
+        Id: g=81e233e860b71c94c8a12e05b21bb2b5
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=e4e3881ef9d603f2beeb9fbcbe1e3f35
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=20f44c5154797772ccc0a96f8f1b4c97
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[31].frequency"
+        - Name: nome
+          Id: g=1dea4f1032897f962f304945df45c3c2
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=6a511f1948077bd7f70787ac28508b64
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[31].nome"
+          - Name: MaximumLength
+            Id: g=364537611e8a6bdae305754e17ca4c2c
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=7a3dcf9bf1332c267b16103d74e63f22
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=070fd985620caeb928baa771f639dc77
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=e838a3564bb75f0fd1599f4dc2d06723
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[31].speed"
+      - Name: 32
+        Id: g=05781351ec4e9e5909e65127ff8e4c01
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=2d1f5156551980f2e001eb9fca0199ed
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=f75ad705b76d39e16788e887971a6870
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[32].frequency"
+        - Name: nome
+          Id: g=4e5ff673a9a0520dbb13acc3f0a3d110
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=bd45e75a81823f11cfa18da198475f34
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[32].nome"
+          - Name: MaximumLength
+            Id: g=ebd8830f1e489efb037645f75364be71
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=e6cfb7199366d53fbce73e33785904b8
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=287a405d7761ea6f3dd21584b957ebbf
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=94a64fde6162ab249b35a01898f54711
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[32].speed"
+      - Name: 33
+        Id: g=0a18e64488ef77bab0fa378e154f7916
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=d5a4fffda379e2f1ea7ae495710a24d5
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=d661804093881d3fc00ca11a9b891053
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[33].frequency"
+        - Name: nome
+          Id: g=0245daff9152de4281348a16f79ee6f5
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=9b1be9ee2e9d0560faea7d0fa504049f
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[33].nome"
+          - Name: MaximumLength
+            Id: g=6e6d57dcfaee77be1c1dc552449364c7
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=9c2e2e2f8bda4000f7ca4c38b7af0ab8
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=48f6487ae95f535a62f48d3324e05c8b
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=382795ef2922ee466b8290b928b9580c
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[33].speed"
+      - Name: 34
+        Id: g=44f87dc8a3234482e086f24038a5f256
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=5f6d2c31ec41b5a7699ae5f11457f67d
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=6c7bf6f07623ab06d019e5ad3bff8219
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[34].frequency"
+        - Name: nome
+          Id: g=23996450f0ed547bdab7714396fde61f
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=382ceaf1eaf968e97139c285089872a6
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[34].nome"
+          - Name: MaximumLength
+            Id: g=97a8566dea4e56f4d322b883fdeb9afc
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=0bfc74c73dd3f6459d1cfe9e728f984c
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=682cf0866ebda6fb3482a8dc438c15db
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=316794739080da9f99ac6c3c30c04e0e
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[34].speed"
+      - Name: 35
+        Id: g=53fc6c14a090f7bf95ada58eb862d223
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=83146ec08bc64db7f7c72765c5b451a0
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=10b80c3a3e6b7b7ea2f06f294f336d2c
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[35].frequency"
+        - Name: nome
+          Id: g=79672eab1721d9b91f43b58652cb0b00
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=68fdc4cbd9bb3bdf4c899bab33ba5048
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[35].nome"
+          - Name: MaximumLength
+            Id: g=63c76e5834604c034b5b481e18080949
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=26b3471db93153c3fbc38837f095e9a9
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=7b93b48fa7ead4ec2b259e8edfb9b9df
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=642392ae00ea358b396493d95aa75569
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[35].speed"
+      - Name: 36
+        Id: g=1d4162df563c52456ea49b53879f65f4
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=771dbca7f32fb311b09a4c46b4588375
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=c1085f6dd5bcf7cac930058c21a74da0
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[36].frequency"
+        - Name: nome
+          Id: g=b5b5cbbc606fa11ec3a7c7b107ffba57
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=0a55c8d329c3dde08fc8beb0f1b37621
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[36].nome"
+          - Name: MaximumLength
+            Id: g=0b51ec3ffee340d677a83b557cd619b6
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=8768c88bd9dd635f7f8c1a0f086c08db
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=e4e3c45f04c4ca317c527d2769f65b1e
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=35c6c22b64857381454437a867a9df92
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[36].speed"
+      - Name: 37
+        Id: g=fdb73334ee80675f676a436694f6b07b
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=88ac5e817b23155e4bd8c1bf0f92ed46
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=a4f8ea5c8b26793bfc951b0d2dd5b96a
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[37].frequency"
+        - Name: nome
+          Id: g=f61dce54270758f218fb0cbb2375d232
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=6ada356794dab843c792034b054d2bef
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[37].nome"
+          - Name: MaximumLength
+            Id: g=3266b4d10d2e480101db0a5f58c69e86
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=f7d345ad86948d6d9754ec8ba3b5e4ad
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=077876a41cb520eb253d53033dade7c3
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=7acb6b7a827d28b502d701a1b08235be
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[37].speed"
+      - Name: 38
+        Id: g=c5b500d2547af9543d7a519cd7e94e50
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=b7200dff28c793846266188f60efa3af
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=483ca2bbeeccd1d3e3ea245a42a852f2
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[38].frequency"
+        - Name: nome
+          Id: g=e93929cc54624ab3629c3c67b067bd20
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=2f1040836fe1d85fe0e2678a6300f480
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[38].nome"
+          - Name: MaximumLength
+            Id: g=41e24f395bb2186fe86cc6427d42348c
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=5199e59963a697273c6bbb6df059827d
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=ff7fe2703f003b0405c858c7f0eef2d4
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=af62ac645b838067fcfb1a67e582bb3e
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[38].speed"
+      - Name: 39
+        Id: g=445f90c89d9b4e8fbcc3029ea095bd64
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=7c6af6db43c78e9e2a68bc8241de4dff
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=0b5851a02efc69d1052c567381ff7dd7
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[39].frequency"
+        - Name: nome
+          Id: g=9caab9bf6ebb4b46b62deff7ff0f84e2
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=03f6190010cdc6d8159b0d657202ed6e
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[39].nome"
+          - Name: MaximumLength
+            Id: g=b665f20e6d3b410a528f47b8dafa0b26
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=c9567b8adca8441aef42bc0f3b3aaa2d
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=ad72a8a6e986bfa461dce23a802f7640
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=bd931d2c1fef908d5f1541f45af25e18
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[39].speed"
+      - Name: 3
+        Id: g=c7a5e82b2ece78af799f36c090e4b20c
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=6a884ef9884e6337461b6a50410d8c7d
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=feea8c1debfca8c1e1eab5052dbeed64
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[3].frequency"
+        - Name: nome
+          Id: g=0f2d3d66b810684b3c3d2f71b23c1eee
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=9b1b825ccef9a69d11600cd1816833c0
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[3].nome"
+          - Name: MaximumLength
+            Id: g=02d6ac470e5f87b28edf5086c430c2ff
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=4372c037f487d9181a2725d0c533fdb4
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=1e7e5c43e5616b5580e4497fa169de6b
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=b2ae034b310573f10a73d40c1e33a04e
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[3].speed"
+      - Name: 40
+        Id: g=8c2b4300b390ddf61bb97464a00d5e45
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=a589dd476f4dbd3e23b546bb757c1852
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=067ad580aaa42e3b6050c93ded60f69e
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[40].frequency"
+        - Name: nome
+          Id: g=3bc4e75a46df6f622607917f0a6a98e0
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=2bc6a4bba84b83459048ac3e2cb86998
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[40].nome"
+          - Name: MaximumLength
+            Id: g=2cfa13a74e36d8947fc0bc332d20c545
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=5729dbc9bfbb5a09cd059d6cf7b3a5c0
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=1cfdd38eea75e5c5d568657241eb5562
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=3c85814191da663d44a50a047bba03de
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[40].speed"
+      - Name: 41
+        Id: g=6790b8eae90af443f687f09143cf8a82
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=3fb0cd1a7179e5887a4123f9389baade
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=29082249b2d94a7ae2baf1c477c75400
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[41].frequency"
+        - Name: nome
+          Id: g=a46c8c06e8c48ab0454c6e3896ba727b
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=aab7590be8adb425a0096ff0630f88ea
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[41].nome"
+          - Name: MaximumLength
+            Id: g=e73a7aab31561850855dd3fe7dbf180f
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=338f484943ad8f34a3d14d9936e8e7f8
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=4d50ab1af8379ecd7bca811ef750a18c
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=4ee0c7691b5de90ded57c21c172bf0bb
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[41].speed"
+      - Name: 42
+        Id: g=76b005fd5df8d8baf4d264d4fe40c812
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=335d826f5e4573076e36ecf32301784a
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=2516dc077fb670d26e00e4ad80dc628c
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[42].frequency"
+        - Name: nome
+          Id: g=5c0e2eb0f5f8992b45f0da85a3981cd5
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=3cdd6a5af0ef6c36136dea40cf7c4ad2
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[42].nome"
+          - Name: MaximumLength
+            Id: g=cc094d3a175d56093ac43f892417e1a8
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=abfb1495372e0ec9a489debabcbf73a9
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=5b558d261f8ad86b6a3054e9a2db0a38
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=967f5758395890dd1c9b7a7cb4adbeb4
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[42].speed"
+      - Name: 43
+        Id: g=0e0bcb9e247fcf8c03cb40d885b4e023
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=579afbf7f18f607824b026e7b7ef047c
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=0ce30ed8c4ec1e1d2ce8915f7ef95b5d
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[43].frequency"
+        - Name: nome
+          Id: g=e72f6eed5a61b843f54e273ee853a4e0
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=a32d5a86349a63504b8287a94ac41a4b
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[43].nome"
+          - Name: MaximumLength
+            Id: g=cb336af0febf199312bae7eb226837b7
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=8b76a7257d427a62138a05db60178a2d
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=487c1ef67b353ac00c102964b8fe3e23
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=5cf8180c1910e86cecd5c28020cc29a3
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[43].speed"
+      - Name: 44
+        Id: g=5f09c911978b78d0934cd63bfc843639
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=320c8886fd6eb0332c8ad5e979797f21
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=a3bdd579beecbe69326837011fbe69ff
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[44].frequency"
+        - Name: nome
+          Id: g=95d70a80c8adb03f64b7c31e52b3dde1
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=fe08d93a7f7f31caf61b2ea175880243
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[44].nome"
+          - Name: MaximumLength
+            Id: g=5fe6c6a1a15b6b399c1d1ad950793fd5
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=a7f3134d5cd0dbe23988d245d6f28fed
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=f189f10ba6ce20083704c65207ac3ae9
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=dc76b8a3d5ace8407a7b7ebe6c34d54b
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[44].speed"
+      - Name: 45
+        Id: g=ce0fe5b11c002ecf2c14561e1754fd77
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=d3cf9e77060e51a0368de6e7021dbeef
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=d78619cfd674c430a73f0012b8a58883
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[45].frequency"
+        - Name: nome
+          Id: g=bc05816c024734ffaf048780d6abf237
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=c05ec39add50f57ea06c9a2f648d269d
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[45].nome"
+          - Name: MaximumLength
+            Id: g=7c51b83e1c33ffedf0b1b3938cd37383
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=19219c2faf6c82e2c2a1f9f44e8b783d
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=eae10cb28b6926c7979877c9580a7463
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=20f19f2832da76c45d403fbfa48dc11a
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[45].speed"
+      - Name: 46
+        Id: g=6fb96cc598a28b581e43b1c161b9473a
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=59d8cae40c4197067fb7547fa116e5a2
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=cc25075549c93de0a3546d71f078a2a5
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[46].frequency"
+        - Name: nome
+          Id: g=289bd8932107a8ea49db389cfee63386
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=d9c7589ad3bc20ef4eccbd3bb56b2312
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[46].nome"
+          - Name: MaximumLength
+            Id: g=1810523b98c19a00fdd1c5a0961bb35f
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=9749bfe7d9c8603e4a7794ac9be2ad57
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=734fc4e9417f258dc2dd7c7789f4542d
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=af5b62bdaacdfd3ccda3570427437f2f
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[46].speed"
+      - Name: 47
+        Id: g=3c6119a3f34c3fb382f08ac7effe1655
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=811d42ea5d25a7b844db543abbdc0d8e
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=68fe81a7a1991f540c35c9bd75cb52d7
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[47].frequency"
+        - Name: nome
+          Id: g=023508278c723a904079b8bcceffb295
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=797e619073da84b90a210963aee99ae1
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[47].nome"
+          - Name: MaximumLength
+            Id: g=1f9c13d4db39b91306d66acca9732d72
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=04c40f9594d7524965005aa42c4be1a1
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=18a852bb524388e3628877df692ca40a
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=6b4221cbd3cb483340f9e9860d594435
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[47].speed"
+      - Name: 48
+        Id: g=9eb2dcedfa0a5bbae399832dbdf39c64
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=dabc495b47b23c2a77e992a78fe5c838
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=d793591e97f3550fc1e3c83cf85728e2
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[48].frequency"
+        - Name: nome
+          Id: g=aae53cbbbd919b2281cd84981dfdb865
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=4e5828869effe5d97c0a1dd2a20f3961
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[48].nome"
+          - Name: MaximumLength
+            Id: g=20dcf39e11cee3f517a1b842db2897df
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=54a960c1936f8beca984223b872ecfe6
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=de21f06a6a8d8c4aef7539c3e63c78ae
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=a8be0e94faac71bf4f6b7359111b91c2
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[48].speed"
+      - Name: 49
+        Id: g=174c4b7fc6ab369b2a07633ee7541474
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=05b36929ec6345fee87cd02f500a0f15
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=7763e3a7651adb48d0f875a3db2ec1c8
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[49].frequency"
+        - Name: nome
+          Id: g=2d16bc3374b7882f0c763b9a03793009
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=6a32c6e114d1c47438e4bfece0211cf8
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[49].nome"
+          - Name: MaximumLength
+            Id: g=d351c2eb9cda37aca90b53eac36efb14
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=f56ca1c6fb9325aed70b4737f1eac392
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=a16526889e83545658415fae068be8fe
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=616ebdab05138c10cf4acca197cf4c1e
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[49].speed"
+      - Name: 4
+        Id: g=5bda47ca3bead468864096cb69ff1ef0
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=9db8cf8ccf53aab0d03d0c3fa6d63f23
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=b69bd037a54c8e5179fc5db5abbb36c3
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[4].frequency"
+        - Name: nome
+          Id: g=b4438be012aeaa1880186e4b29aa813e
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=bbfd749a50b98998c6f056b283b6ae40
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[4].nome"
+          - Name: MaximumLength
+            Id: g=225bfb616ec45873546b4f82573ee10d
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=bfab4eca83368d271aa29b388b33ca84
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=acf7c1e126cb85b56c202801af00aadf
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=b3cb0ef6b857b96c13f3ad35ae16a4ff
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[4].speed"
+      - Name: 5
+        Id: g=4388fa99bf412b702bbcfbaa06d436ee
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=db00ebd3ff381e9a44c35389fa7553da
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=cf8149e5e1a06b20f67fb1ec4295d4e8
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[5].frequency"
+        - Name: nome
+          Id: g=464c4bf8862698e001852e48b360c404
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=076ec24c2d9d7ff4cfe561fdabaf60e7
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[5].nome"
+          - Name: MaximumLength
+            Id: g=42f5bff591f28a6ee8edb79ac99443a9
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=fd35b21627ab0ca690a66b65dcb8c596
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=5a597ee51a03cc6d91ed325184644edd
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=f741d8367168aa7b64bbaafa4b427c8b
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[5].speed"
+      - Name: 6
+        Id: g=0cb09ea4867c70ae6e6fba1f4cdf3a5e
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=a09dafe754ecf4f46004e45a974fee60
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=a1dda80049455059f457310faa340940
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[6].frequency"
+        - Name: nome
+          Id: g=cb564550156ed29be7611323e5ee195a
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=279f952ced8b75c6cac30818ced67049
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[6].nome"
+          - Name: MaximumLength
+            Id: g=4e10457e25c97a656ee8cd0c7d3ca28e
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=c971484bd50f90cef6ff746278a38402
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=5086c112a3c9cff845d112c32a8595a8
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=daa1811ce6678bd935d5bc5bc371fe13
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[6].speed"
+      - Name: 7
+        Id: g=81947ad6d91a4f81d5d4d354f0bffad4
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=43a02d58ee8c7a7a09f8c8d5b5fb50a3
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=f3c3330fa0854c09ade2d2dc2c4b2412
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[7].frequency"
+        - Name: nome
+          Id: g=9a288e08805c2c3c1d0ae9e93f178356
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=a0d62de8a3cf5f1e8c20e84726ee9017
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[7].nome"
+          - Name: MaximumLength
+            Id: g=f54c8c93005abf5c2d5898875819aab7
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=bcc759d127e63d2f19f9bfdcb24dbbd8
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=99e43316a08cc868e7c8d6642b26a61d
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=cc8e2f9f4c9cbfe8ed48c046784a81f9
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[7].speed"
+      - Name: 8
+        Id: g=b803ee8cc285e06ebf76f97edb0ae34d
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=a94559777ac64c09b0f52d4c85143254
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=5d3594df3b6e1968ff579938c60d5ebb
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[8].frequency"
+        - Name: nome
+          Id: g=968e40fb4239466bbef9538f48bdf3db
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=ef7fe5288c8ea6f06b98de7aa3d08ecd
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[8].nome"
+          - Name: MaximumLength
+            Id: g=ce50234212a46f7f69dd220fc269212e
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=3f0944da3a924d42f7f2ac69f68f48f9
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=fae7c1d1f2b5324a834adac3a6b76ffe
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=c5d9e0183f94cbc969f3badcc43245b1
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[8].speed"
+      - Name: 9
+        Id: g=c942f43c92ea3f7a877caf42f28022db
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: frequency
+          Id: g=944e137983b92432d6a6e1a4fd61f1cd
+          Type: CODESYSTag
+          DataType: Float
+          Children:
+          - Name: SymbolName
+            Id: g=1b58b04cdec16b326f4682c0badc9b6e
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[9].frequency"
+        - Name: nome
+          Id: g=83f6b637e4b636a1973202e98382bc5f
+          Type: CODESYSTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Id: g=1438f4a4a715bf0b598326b6c1be27f3
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[9].nome"
+          - Name: MaximumLength
+            Id: g=af798a12f90d044d1802a9a689ca5469
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 80
+          - Name: Encoding
+            Id: g=5f96c26d88eea47cb663d6eca1ad96ce
+            Type: BaseDataVariableType
+            DataType: Encoding
+        - Name: speed
+          Id: g=88be068f84459779645bb4166dbfda0d
+          Type: CODESYSTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Id: g=cc4dee6fa016d38f68f7d1750f8a6370
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.arrayMotori[9].speed"
+    - Name: arrayStringhe
+      Id: g=c5ea844e2419570fbedc5e80900114e0
+      Type: CODESYSTag
+      DataType: String
+      ValueRank: OneDimension
+      ArrayDimensions: [10]
+      Children:
+      - Name: SymbolName
+        Id: g=56d9345540766759fde3e389ec7f0d98
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PLC_PRG.arrayStringhe"
+      - Name: MaximumLength
+        Id: g=a7bee13d7cd92b124403e631853e4ded
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 80
+      - Name: Encoding
+        Id: g=8b67867d0e89de1820e12ac67b20efee
+        Type: BaseDataVariableType
+        DataType: Encoding
+      - Name: StartArrayIndex
+        Id: g=c8925eaf72582c616d3111bdc50d1fef
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ValueRank: OneDimension
+        ArrayDimensions: [0]
+        Value: [0]
+    - Name: attivaRicetta
+      Id: g=52f19caeb09578f7e08c0d552cb4daf6
+      Type: CODESYSTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=b94a0b7598504ccd847592c3cf92db9b
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PLC_PRG.attivaRicetta"
+    - Name: bStart
+      Id: g=bbb738ec7d403b9e8da4b309657b1b1c
+      Type: CODESYSTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=aea368b4b222eac1134d576aed768dbc
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PLC_PRG.bStart"
+    - Name: Copy_2_of_var2
+      Id: g=b7e0d112277fbd4aa3cdd03920d802ec
+      Type: CODESYSTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=6723b97be9d879a66a7b14d48e3a79e7
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PLC_PRG.Copy_2_of_var2"
+    - Name: Copy_of_var2
+      Id: g=baf2d359e69e81532c6f4fc9a0edf0d5
+      Type: CODESYSTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=c1ab42f870b02822aefcfe60873449cb
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PLC_PRG.Copy_of_var2"
+    - Name: incrementa
+      Id: g=208b1ecf262f255ab4564d34875d74eb
+      Type: CODESYSTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=e8913f8483b9c6ac2dbcb881c51650ea
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PLC_PRG.incrementa"
+    - Name: Motore1
+      Id: g=47bf10adeca67c85ddf104b094d71510
+      Type: TagStructure
+      DataType: Structure
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "IdType": 0,
+          "Id": 0,
+          "Namespace": -1
+         },
+         "Body":    {}
+        }
+       }
+      Children:
+      - Name: frequency
+        Id: g=d1a55930772664d9fe0261030e92947b
+        Type: CODESYSTag
+        DataType: Float
+        Children:
+        - Name: SymbolName
+          Id: g=3d11e37723799ca0007f923b3db58d6d
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Application.PLC_PRG.Motore1.frequency"
+      - Name: nome
+        Id: g=f98765b25407b31183678d168a5b9b16
+        Type: CODESYSTag
+        DataType: String
+        Children:
+        - Name: SymbolName
+          Id: g=768c35028e9a333e4167ec73a1cffa3a
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Application.PLC_PRG.Motore1.nome"
+        - Name: MaximumLength
+          Id: g=a43e51d97642366d37990566aa7e8899
+          Type: BaseDataVariableType
+          DataType: Int32
+          Value: 80
+        - Name: Encoding
+          Id: g=d516ae44c5e3b6cceb9b967b09f9e63c
+          Type: BaseDataVariableType
+          DataType: Encoding
+      - Name: speed
+        Id: g=be7503c2f55bc84326b786276fcdcf5a
+        Type: CODESYSTag
+        DataType: Int16
+        Children:
+        - Name: SymbolName
+          Id: g=4c2e152215984e35f640db54987fd51a
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Application.PLC_PRG.Motore1.speed"
+    - Name: newVar
+      Id: g=c341df080ec4f06bc631acdafcd219c6
+      Type: TagStructure
+      DataType: Structure
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "IdType": 0,
+          "Id": 0,
+          "Namespace": -1
+         },
+         "Body":    {}
+        }
+       }
+      Children:
+      - Name: var1
+        Id: g=c89737cca3a296c42c0a6fde7864d497
+        Type: CODESYSTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Id: g=fd99f0d880f117a5b4ab136333f7f2c1
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Application.PLC_PRG.newVar.var1"
+      - Name: var2
+        Id: g=7a177dc687e3881e658bcb2abbfe12eb
+        Type: CODESYSTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Id: g=16152d8430277484a8c5869dbc24f23b
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Application.PLC_PRG.newVar.var2"
+      - Name: var3
+        Id: g=880c80ee6bd258ef08546f0f206efde0
+        Type: CODESYSTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Id: g=94abe44de3c53be7d4279a08fa530cc3
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Application.PLC_PRG.newVar.var3"
+    - Name: NomeRicetta
+      Id: g=a958c33baadf22ef533bc1e84feade02
+      Type: CODESYSTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Id: g=7946fc15da376b7837970dcc086e6690
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PLC_PRG.NomeRicetta"
+      - Name: MaximumLength
+        Id: g=d32f2b54146d50ecff3903e18c2df508
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 80
+      - Name: Encoding
+        Id: g=ee763bb78a465bd9a43ec9042ed10205
+        Type: BaseDataVariableType
+        DataType: Encoding
+    - Name: tempo
+      Id: g=223acffcff5e26c5212245d8e59e8ccd
+      Type: CODESYSTag
+      DataType: Duration
+      Children:
+      - Name: SymbolName
+        Id: g=b20afa317a7421171e6d95b7cd135e46
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PLC_PRG.tempo"
+      - Name: Encoding
+        Id: g=2b907945f65c069c9eba457445be172e
+        Type: BaseDataVariableType
+        DataType: Encoding
+    - Name: test
+      Id: g=cd7bcab104e972be1e68b56a73208fc6
+      Type: CODESYSTag
+      DataType: Int16
+      ValueRank: OneDimension
+      ArrayDimensions: [11]
+      Children:
+      - Name: SymbolName
+        Id: g=00c9654d096708cfa6303e0070813332
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PLC_PRG.test"
+      - Name: StartArrayIndex
+        Id: g=6171b8ba0c233ad3d05259ddbe8781fe
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ValueRank: OneDimension
+        ArrayDimensions: [0]
+        Value: [5]
+    - Name: TestDataOra
+      Id: g=b0cc6075d9af3e9c01384049161fa767
+      Type: CODESYSTag
+      DataType: DateTime
+      Children:
+      - Name: SymbolName
+        Id: g=01dbf1aa338137701e22d1c7a5c346b3
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PLC_PRG.TestDataOra"
+    - Name: testUnion
+      Id: g=bd6caa73ea6f6fa61d669247fb381d50
+      Type: TagStructure
+      DataType: Structure
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "IdType": 0,
+          "Id": 0,
+          "Namespace": -1
+         },
+         "Body":    {}
+        }
+       }
+      Children:
+      - Name: test
+        Id: g=9ef667dd1eda62d7083528ee86ad7f03
+        Type: CODESYSTag
+        DataType: UInt16
+        Children:
+        - Name: SymbolName
+          Id: g=fca4ab801c286211905aa8419051d144
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Application.PLC_PRG.testUnion.test"
+      - Name: test_bit
+        Id: g=3ae5bc8270a6817eb70ca31faebb5dd6
+        Type: TagStructure
+        DataType: Structure
+        Value: 
+         {
+          "Type": 22,
+          "Body": {
+           "TypeId": {
+            "IdType": 0,
+            "Id": 0,
+            "Namespace": -1
+           },
+           "Body":    {}
+          }
+         }
+        Children:
+        - Name: bit1
+          Id: g=fa790bdcfc46aedb8b09d3004315e0e0
+          Type: CODESYSTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Id: g=ca8eda60503b46c5150823b348d2bcac
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.testUnion.test_bit.bit1"
+        - Name: bit2
+          Id: g=b11511c01e7b3b4e3410cd5c52e84239
+          Type: CODESYSTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Id: g=3a2c7369df56374a126bbeb84886ab75
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.testUnion.test_bit.bit2"
+        - Name: bit3
+          Id: g=3ba5b9c8ba49258421ddd7081999e8a6
+          Type: CODESYSTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Id: g=22abc54a6816782397141f16260e4124
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.testUnion.test_bit.bit3"
+        - Name: bit4
+          Id: g=7b17fc07a1936d9d51c8cc0ae29ebb53
+          Type: CODESYSTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Id: g=82ce74640d5323fe66634e3b30be5a72
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.testUnion.test_bit.bit4"
+        - Name: bit5
+          Id: g=a7436df740ebe8a669f7db196a590aaf
+          Type: CODESYSTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Id: g=afa791c723bf7e7c0dcee1b1ffbef556
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Application.PLC_PRG.testUnion.test_bit.bit5"
+    - Name: var1
+      Id: g=05549f02d44822699e51e8c94b8269b9
+      Type: CODESYSTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Id: g=6cd954684513aff80914dab3121d187d
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PLC_PRG.var1"
+    - Name: var2
+      Id: g=5947e2026c129f824d07566124223446
+      Type: CODESYSTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Id: g=9bed3558ae77ad990dd90e730c37d5f2
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PLC_PRG.var2"

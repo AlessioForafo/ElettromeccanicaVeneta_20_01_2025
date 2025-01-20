@@ -1,0 +1,269 @@
+Name: FactoryTalkRemoteAccessWidget
+Id: g=2127bf125f8ec9d26e14c727d5f52093
+Type: FolderType
+Children:
+- Name: FTRemoteAccessWidget
+  Id: g=41382c57dc616862c1af276ff6942abc
+  Supertype: Screen
+  ReferenceType: HasComponent
+  Children:
+  - Name: HorizontalAlignment
+    Id: g=9db2972b0f4538d3ba555fa2c7def72e
+    Type: BaseVariableType
+    DataType: HorizontalAlignment
+    ModellingRule: Optional
+  - Name: VerticalAlignment
+    Id: g=3f0b6338f56b35657ec28b383806e2f1
+    Type: BaseVariableType
+    DataType: VerticalAlignment
+    ModellingRule: Optional
+  - Name: Width
+    Id: g=acab7f2d13856f407d2896b849152167
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 400.0
+  - Name: Height
+    Id: g=ad867b9d1f04a33ef0cd571164844431
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 250.0
+  - Name: MainNavigationPanel
+    Id: g=bc1fb9eb5aa44abcb2f52bcabb65de6f
+    Type: NavigationPanel
+    Children:
+    - Name: Panels
+      Id: g=038c9decce5af814282226067eb2a48b
+      Type: BaseObjectType
+      Children:
+      - Name: ConnectionPanel
+        Id: g=da56e55f5a2754153b30ade05562320d
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Id: g=1d4b0bd8c19f8a7622a530fe303fcc90
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Children:
+          - Name: ConditionalConverter1
+            Id: g=5cd730a35a3107f14acd43ffa2a18820
+            Type: ConditionalConverter
+            Children:
+            - Name: Condition
+              Id: g=0a7c90c9499ae937a2bab31960133b35
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ReferenceType: HasSource
+              Children:
+              - Name: ExpressionEvaluator1
+                Id: g=06415862a9c125b3ca008c8f83f968c4
+                Type: ExpressionEvaluator
+                Children:
+                - Name: Expression
+                  Id: g=926221b842c9fb3d35cf21808e544926
+                  Type: BaseDataVariableType
+                  DataType: String
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: "{0} && {1}!={2}"
+                - Name: ns=3;Source0
+                  Id: g=92dd009c4e0b6575bfc06a7815780cd4
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Id: g=c6deb1e1d18881d09f96fa584517b19c
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../FTRemoteAccessWidgetDataObject/IncomingConnectionRequest"
+                - Name: ns=3;Source1
+                  Id: g=9e38f8e8124676bcd31e6ef53856a462
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Id: g=107fb51b10c289df980e0f3a52dcd1ce
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../CurrentPanel@BrowseName"
+                - Name: ns=3;Source2
+                  Id: g=a3e32748ae6a9e79b3f2e87810ed1e09
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Id: g=429060944c5bcce606f49e9d9c637082
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "/Objects/ElettromeccanicaVeneta_20_01_2025/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/ConnectionPanel@BrowseName"
+            - Name: TrueValue
+              Id: g=fe987774b822f975067cda018c2b2777
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: {"NamespaceIndex":18,"TextId":"ConnectionPanelTitleAsterisk"}
+            - Name: FalseValue
+              Id: g=146554f4ab93bb32bf4ccdcf9d700f70
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: {"NamespaceIndex":18,"TextId":"ConnectionPanelTitle"}
+        - Name: Panel
+          Id: g=acdda7fbba59328feb61197820368f3e
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/ElettromeccanicaVeneta_20_01_2025/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/ConnectionPanel"
+          Children:
+          - Name: Kind
+            Id: g=6f5f5aa662ecc8068c40cf9e767d06bf
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+        - Name: AliasNode
+          Id: g=3f6f6106107316e709f41fd4a06c1ada
+          Type: BaseDataVariableType
+          DataType: NodeId
+          ValueRank: ScalarOrOneDimension
+          Children:
+          - Name: DynamicLink
+            Id: g=ed98abb41a10d6c277bf3773a9e0aab9
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../FTRemoteAccessWidgetDataObject@NodeId"
+      - Name: RequestAssistancePanel
+        Id: g=6f97bb7a297ca7ecd0970f8886b11068
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Id: g=38bcb966d55f35e05cb8c767725e80a5
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":18,"TextId":"AssistancePanelTitle"}
+        - Name: Panel
+          Id: g=36be49e718b6352f2f07222015f33604
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/ElettromeccanicaVeneta_20_01_2025/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/RequestAssistancePanel"
+          Children:
+          - Name: Kind
+            Id: g=c0a7119d201197e973f9beb42c3b4ef2
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+        - Name: AliasNode
+          Id: g=a59dd99eed5ae47d9ce1f1a73339996c
+          Type: BaseDataVariableType
+          DataType: NodeId
+          ValueRank: ScalarOrOneDimension
+          Children:
+          - Name: DynamicLink
+            Id: g=062edfbd6f9c12562f0c9293f43b7cbd
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../FTRemoteAccessWidgetDataObject@NodeId"
+    - Name: CurrentPanel
+      Id: g=e01443d60ca7c9bd407221fc69b10c75
+      Type: NodePointer
+      DataType: NodeId
+      AccessLevel: Read
+      Children:
+      - Name: Kind
+        Id: g=244339b42862a06448c7a688a34bffbf
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+    - Name: HorizontalAlignment
+      Id: g=fc1e0e318bb2b6be03134d7e95edc092
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Id: g=115408ee7413b4c2c49e874ca0042b09
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: CurrentTabIndex
+      Id: g=c8307244c89a154e5684d004c6cfb9f6
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Class: Reference
+      Target: ns=5;i=1181
+    - Class: Reference
+      Target: ns=5;i=1183
+  - Name: FTRemoteAccessWidgetDataObject
+    Id: g=87ee472caa05669294ec8e415e382761
+    Type: FTRemoteAccessWidgetDataObject
+    Children:
+    - Name: IncomingConnectionRequest
+      Id: g=627c0ae9f2e14c3965a021c93811c81a
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Username
+      Id: g=701f58905d5ad083d10ab7e1f0bf225d
+      Type: BaseDataVariableType
+      DataType: String
+    - Name: IpAddress
+      Id: g=c3ce58f6def834f64e2b738a22bd763b
+      Type: BaseDataVariableType
+      DataType: String
+    - Name: SupervisorId
+      Id: g=e593acc36ef5182060eb6d9f4353ae92
+      Type: BaseDataVariableType
+      DataType: ByteString
+    - Name: FTRemoteAccessNode
+      Id: g=967c4835a712354469c779da59ff05c9
+      Type: Alias
+      DataType: NodeId
+      Children:
+      - Name: Kind
+        Id: g=7a5718ef2b089380bfaa635307d5455f
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/ObjectTypes/BaseObjectType/FTRemoteAccess"
+      - Name: DynamicLink
+        Id: g=8f36b641e5d42b2cdbde6637e724a2f7
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../FTRemoteAccessNode@NodeId"
+        Children:
+        - Name: Mode
+          Id: g=05652f1907df93a24ac140efc52d821f
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+  - Name: IncomingConnectionReceiverLogic
+    Id: g=1531020df978963d009992b773ffb308
+    Type: NetLogic
+  - Name: FTRemoteAccessNode
+    Id: g=7c68bbe8c8a22a8468c24e3e127d6cef
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/ElettromeccanicaVeneta_20_01_2025/System/FTRemoteAccess"
+    Children:
+    - Name: Kind
+      Id: g=c5b51702240cf80481f1b0ae3d976f84
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/FTRemoteAccess"
+  - Name: FTRemoteAccessWidgetSetupLogic
+    Id: g=f16ee99f0b45ebf282b7d3dde8e293c2
+    Type: NetLogic
+    Children:
+    - Name: BehaviourStartPriority
+      Id: g=12340c10eeb1c43c1bda47bbaf23c72b
+      Type: BehaviourStartPriorityVariableType
+      DataType: Byte
+      Value: 180
+    - Class: Method
+      Name: SetupFTRemoteAccessNode
+      Id: g=bbbe71f77df948e05f6eb1a3afa8aee2
+- File: FTRemoteAccessWidgetComponents/FTRemoteAccessWidgetComponents.yaml

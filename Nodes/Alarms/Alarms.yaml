@@ -1,0 +1,186 @@
+Name: Alarms
+Id: g=3293e7cd8de0bb06cc725e017a984470
+Type: AlarmsCategoryFolder
+Children:
+- Name: DigitalAlarm1
+  Id: g=ca82ba8337817d8e464e9fe65080e447
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=a13982967fdb8e971026082903733148
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=6f94a8622dc5797d0cdd9c56b7a409b9
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=9ce9c58a634875b74d6be28f51111187
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/ModbusTag3.0"
+      Children:
+      - Name: Mode
+        Id: g=7f2e44297ac410dae6aad56cbf3f06de
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=c4306069f864359eef4e8530fd941ec1
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=d7e975bcf9ef39a0c5da0af1dca6f042
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Allarme bit 0"}
+- Name: DigitalAlarm2
+  Id: g=68b91995b022acc179bdb7897b7abd66
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=e68993185e57b8f77b1c1fec3c37b322
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=01dd28edffa97ad710c3c6fab710ce51
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=158f3fb82ba8e110ae1782a5bcd30837
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/ModbusTag3.0"
+      Children:
+      - Name: Mode
+        Id: g=d9287df1eb11b5db479e34dd93cd4eff
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=6177d1e30fed037385a448a1f9bf7ed2
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=48b91ea56ce5409748c64a77335e6505
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Allarme bit 0"}
+    Children:
+    - Name: StringFormatter1
+      Id: g=40cc492e54d10c368a91122a135f2651
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Id: g=9016d7a3e06bfa375de4d72da73b3c9c
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"{0}"}
+      - Name: ns=3;Source0
+        Id: g=7ac43ae9c82324a016a3f68104c0ce55
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Id: g=981d70323265c6b3ce3ee7d5860018f2
+          Type: DynamicLink
+          DataType: NodePath
+          Children:
+          - Name: IsPull
+            Id: g=679dd23d0b7d1ec82da9b747150e4bf6
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Id: g=89df4c05894b082d5c00ef27601e5752
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+- File: AllarmiDaCodice/AllarmiDaCodice.yaml
+- Name: DesignTimeNetLogic1
+  Id: g=263073455a1af8691c95c29fd7c86520
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Id: g=309ea55b9cface2e85514df84351d0e8
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: CreaAllarmi
+    Id: g=ca2dafef60aaa0ac502b21e20b4b9acd

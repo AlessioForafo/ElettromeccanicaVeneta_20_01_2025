@@ -1,0 +1,1455 @@
+Name: Model
+Id: g=72d08e5907c9172040723b847fa0f400
+Type: ModelCategoryFolder
+Children:
+- Name: Variable1
+  Id: g=a3de0625f8d40d300a009482f5114d4c
+  Type: BaseDataVariableType
+  DataType: Int16
+  Children:
+  - Name: DynamicLink
+    Id: g=46a320b4b4fcd4c5f1d5b75f8d6c7dce
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/ModbusTag1"
+    Children:
+    - Name: Mode
+      Id: g=50bef28fa887ad73339d225360f3a39e
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Variable2
+  Id: g=fc99a86368780e31615033176f9874ac
+  Type: BaseDataVariableType
+  DataType: Int16
+  Children:
+  - Name: DynamicLink
+    Id: g=4fa3c1eb06298cc2921228ca8b4159d3
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/ModbusTag2"
+    Children:
+    - Name: Mode
+      Id: g=4220d30584cf896b09c5a0c0af236d00
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: MotorePLC
+  Id: g=992e97add5404ae7ed6349921e3c3359
+  Supertype: BaseObjectType
+  Children:
+  - Name: Allarme1
+    Id: g=b6df1e961db4684d679d3f73fb735afd
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Allarme2
+    Id: g=11297a090b370ae4ca7ee715e82b44a0
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Allarme3
+    Id: g=58bb649283426f66ed01c54db784c1cc
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: NomeMotore
+    Id: g=4aa1850619753d6c901182fcf22ba027
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+- Name: MotorePLC1
+  Id: g=1e1416804ac94e0d6b501ad46c4a8a84
+  Type: MotorePLC
+  Children:
+  - Name: Allarme1
+    Id: g=67bc6b2940107be34c638d704e3c75fe
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Allarme2
+    Id: g=260decbd147e076b80a27151601fa398
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Allarme3
+    Id: g=66c02bc930b54da859e473791f82790c
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: NomeMotore
+    Id: g=0e0ac9104fdae5d326bb05a24f7723e0
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "G1"
+- Name: MotorePLC2
+  Id: g=add9b74ac71a7cdf1200ce053aecfc85
+  Type: MotorePLC
+  Children:
+  - Name: Allarme1
+    Id: g=0701e5ff4b81b96cce4270ebb739f8cf
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Allarme2
+    Id: g=fa29468c5b3b53ec82bc7d72d4c030ac
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Allarme3
+    Id: g=ffc858417ce80cf87d8fd8befeabff77
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: NomeMotore
+    Id: g=15ebbf09b3dc1d62067ee93fbf79a419
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "H2"
+- Name: MotorePLC3
+  Id: g=17d1692cbae3b80a8ea1e7b0697146bf
+  Type: MotorePLC
+  Children:
+  - Name: Allarme1
+    Id: g=d825512ccb2f383030b90570ea3ca5d2
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Allarme2
+    Id: g=b3f62961962ec3814d7f6c4758cb16dc
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Allarme3
+    Id: g=72c9e3514eb21d123eae953794a34dee
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: NomeMotore
+    Id: g=dbe7b710914c9a28e0e1cbf684a9271e
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "AAAAA"
+- Name: AllarmiMotore
+  Id: g=ebc3659cb2d048e0f551b564be0df56e
+  Supertype: BaseObjectType
+  Children:
+  - Name: DigitalAlarm1
+    Id: g=89de6e320aa1782e44d5efab6ccbba79
+    Type: OffNormalAlarmController
+    Children:
+    - Class: Reference
+      Target: ns=29;i=81
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=82
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=83
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=130
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=135
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=132
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=146
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=148
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=150
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=152
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=154
+      Direction: Forward
+    - Name: NormalStateValue
+      Id: g=072b65a21ebf1fcfb38221444b2f4e49
+      Type: BaseDataVariableType
+      DataType: Double
+    - Name: InputValue
+      Id: g=797ef5b9316b7a6b7a9181b955c1550a
+      Type: BaseDataVariableType
+      DataType: Double
+      Children:
+      - Name: DynamicLink
+        Id: g=fac9e4dc2210e513f5e421c0a8e59cd5
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{AliasAllarmi}/Allarme1"
+        Children:
+        - Name: Mode
+          Id: g=59dcc5b82882731bbd7c8111ed50ef40
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: LastEvent
+      Id: g=7d61c231ce7540ac55b2a8a8c7b49022
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+    - Name: Message
+      Id: g=961624016efd4961bf8f183ec99d24ec
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Allarme "}
+      Children:
+      - Name: StringFormatter1
+        Id: g=35aaa9bd08a66b8572d6f897e1af90bb
+        Type: StringFormatter
+        Children:
+        - Name: Format
+          Id: g=f3700a10eae8d89b46a17c50a6907e57
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ReferenceType: HasParameter
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"Allarme {0} bit 0"}
+        - Name: ns=3;Source0
+          Id: g=e9bcccd98d2abf800bb8a207c5f8517a
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=f6cfecd01ac3f91b160b2603401d1d11
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{AliasAllarmi}/NomeMotore"
+            Children:
+            - Name: IsPull
+              Id: g=6fe476b49adaf56261e42bcf23713e2e
+              Type: BaseVariableType
+              DataType: Boolean
+              Value: true
+        - Name: IsPull
+          Id: g=c86b00e3311aea0badb90b6c965d1f0f
+          Type: PropertyType
+          DataType: Boolean
+          ReferenceType: HasComponent
+          Value: true
+    - Name: Nome
+      Id: g=6338e210cf8abdac431988dd2f5dc53a
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+      Children:
+      - Name: DynamicLink
+        Id: g=ba5ee13c446b2852e3860627e9ab367e
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{AliasAllarmi}@BrowseName"
+        Children:
+        - Name: Mode
+          Id: g=04c3565971ef4fcf0704a76ea2a81f76
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+  - Name: DigitalAlarm2
+    Id: g=e2fb42de0b69156f72fc9d91d16a8a5a
+    Type: OffNormalAlarmController
+    Children:
+    - Class: Reference
+      Target: ns=29;i=81
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=82
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=83
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=130
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=135
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=132
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=146
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=148
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=150
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=152
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=154
+      Direction: Forward
+    - Name: NormalStateValue
+      Id: g=6ecc003e480557143ec7e338eafb44c6
+      Type: BaseDataVariableType
+      DataType: Double
+    - Name: InputValue
+      Id: g=32b48add74958cf787864818a2480f81
+      Type: BaseDataVariableType
+      DataType: Double
+      Children:
+      - Name: DynamicLink
+        Id: g=8ee06a4a782f01904f6e0c9fae95e565
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{AliasAllarmi}/Allarme2"
+        Children:
+        - Name: Mode
+          Id: g=c0da2dc058d75494957c55f499d9f2e5
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: LastEvent
+      Id: g=3fa92f8df4408b2e74897257b20754e6
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+    - Name: Message
+      Id: g=53375d1df02e4f859c4e0caad6ead77c
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: StringFormatter1
+        Id: g=2b7ae30badab278d5b27336a5acd5ec1
+        Type: StringFormatter
+        Children:
+        - Name: Format
+          Id: g=c2832197eb727305b1c0cf1661841c44
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ReferenceType: HasParameter
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"Allarme {0} bit 1"}
+        - Name: ns=3;Source0
+          Id: g=924401205d452aae010081cfcaa434b2
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=5ee2bd0b7c30a095a1db3f93b4827868
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{AliasAllarmi}/NomeMotore"
+            Children:
+            - Name: IsPull
+              Id: g=254a9845e916e2956dc67ed2dba73cd1
+              Type: BaseVariableType
+              DataType: Boolean
+              Value: true
+        - Name: IsPull
+          Id: g=ce7e2993a18b444c4c5adc81f1b8db77
+          Type: PropertyType
+          DataType: Boolean
+          ReferenceType: HasComponent
+          Value: true
+    - Name: Nome
+      Id: g=2789dcbb44237f0e9599df1047996bb1
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+      Children:
+      - Name: DynamicLink
+        Id: g=2b51aa0112d840dba1d2125fbf2524c8
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{AliasAllarmi}@BrowseName"
+        Children:
+        - Name: Mode
+          Id: g=76446145156ea6d9f56759052543866c
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+  - Name: DigitalAlarm3
+    Id: g=6dfd028f112d733c778c616bdde4e2a1
+    Type: OffNormalAlarmController
+    Children:
+    - Class: Reference
+      Target: ns=29;i=81
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=82
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=83
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=130
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=135
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=132
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=146
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=148
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=150
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=152
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=154
+      Direction: Forward
+    - Name: NormalStateValue
+      Id: g=3c921690ebbc3b3ea266d05c16e1b18f
+      Type: BaseDataVariableType
+      DataType: Double
+    - Name: InputValue
+      Id: g=8687e2d730c5f823368f2aea7c798712
+      Type: BaseDataVariableType
+      DataType: Double
+      Children:
+      - Name: DynamicLink
+        Id: g=875dcea7c5c5a88385bd4450cae77d2e
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{AliasAllarmi}/Allarme3"
+        Children:
+        - Name: Mode
+          Id: g=d331c95f5ce1e6001b5a05781653a766
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: LastEvent
+      Id: g=d51e2f33d64393be9bc53ecf128e6f39
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+    - Name: Message
+      Id: g=191e674e25b8468b55e8f2fc1317145e
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: StringFormatter1
+        Id: g=91febaaf24848d24d6e3225a09cd6865
+        Type: StringFormatter
+        Children:
+        - Name: Format
+          Id: g=8b065045fe01d376e42c3b9b215c9995
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ReferenceType: HasParameter
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"Allarme {0} bit 2"}
+        - Name: ns=3;Source0
+          Id: g=6adfb3408ad7048a6854b4003af75d97
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=161cdf998591ef0d4274d86b3fbfcc27
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{AliasAllarmi}/NomeMotore"
+            Children:
+            - Name: IsPull
+              Id: g=d2300618732b917e01da7b74dca81f55
+              Type: BaseVariableType
+              DataType: Boolean
+              Value: true
+        - Name: IsPull
+          Id: g=08610f325c5e39f6d8460d2ecb4c52c1
+          Type: PropertyType
+          DataType: Boolean
+          ReferenceType: HasComponent
+          Value: true
+    - Name: Nome
+      Id: g=1bee1689afebd3a9be2470f9e65d77c9
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+      Children:
+      - Name: DynamicLink
+        Id: g=43e44723806224d66bae68ef2889adad
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{AliasAllarmi}@BrowseName"
+        Children:
+        - Name: Mode
+          Id: g=5a81130aee6b568dfc782ad52f0f97ae
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+  - Name: AliasAllarmi
+    Id: g=f3dd3c11632c9373fc2614d729d5be44
+    Type: Alias
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Id: g=4685be2229dbd1abcfda5e95c69907d8
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/ElettromeccanicaVeneta_20_01_2025/Model/MotorePLC"
+- Name: AllarmiMotore1
+  Id: g=06c45a4a5cb115427e59bd4de64dfc85
+  Type: AllarmiMotore
+  Children:
+  - Name: DigitalAlarm1
+    Id: g=83c7abf39a46640c18e7e78f747ac36b
+    Type: OffNormalAlarmController
+    Children:
+    - Class: Reference
+      Target: ns=29;i=81
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=82
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=83
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=130
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=135
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=132
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=146
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=148
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=150
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=152
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=154
+      Direction: Forward
+    - Name: NormalStateValue
+      Id: g=53c444af063e29a54eb5dd0bf7d39166
+      Type: BaseDataVariableType
+      DataType: Double
+    - Name: InputValue
+      Id: g=41c014dceccba8507c602513c5ada559
+      Type: BaseDataVariableType
+      DataType: Double
+      Children:
+      - Name: DynamicLink
+        Id: g=1915aae8af8d106ded7763184cb61b7e
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{AliasAllarmi}/Allarme1"
+    - Name: LastEvent
+      Id: g=edffefd6e614d4ae38b9261a7f681164
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+    - Name: Message
+      Id: g=7d51dec4d99d3d34358b029522f05e8a
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Allarme "}
+      Children:
+      - Name: StringFormatter1
+        Id: g=e3d302b83169a55f7e3414235c6b98b4
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Id: g=1d7bdb83783e1fa332d3bade650a7fa5
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=ef14e1d89c70d811f8c33873791b3453
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{AliasAllarmi}/NomeMotore"
+            Children:
+            - Name: IsPull
+              Id: g=1b28b0b6730083a94127813df76d2318
+              Type: BaseVariableType
+              DataType: Boolean
+              Value: true
+        - Name: IsPull
+          Id: g=ee22aee8a0a7c94005351cb455986a61
+          Type: PropertyType
+          DataType: Boolean
+          ReferenceType: HasComponent
+          Value: true
+    - Name: Nome
+      Id: g=93766c9894b5c820d5e94081b8ffc0d1
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+      Children:
+      - Name: DynamicLink
+        Id: g=70c7dbed79868319fb292ee210814a3d
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{AliasAllarmi}@BrowseName"
+  - Name: DigitalAlarm2
+    Id: g=b6a117ea15e298edecfd87b47e379a65
+    Type: OffNormalAlarmController
+    Children:
+    - Class: Reference
+      Target: ns=29;i=81
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=82
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=83
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=130
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=135
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=132
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=146
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=148
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=150
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=152
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=154
+      Direction: Forward
+    - Name: NormalStateValue
+      Id: g=e59a81a904462facd9f99eaaa8e41508
+      Type: BaseDataVariableType
+      DataType: Double
+    - Name: InputValue
+      Id: g=2bdbcb09dc50dc34d3601d25371fe5eb
+      Type: BaseDataVariableType
+      DataType: Double
+      Children:
+      - Name: DynamicLink
+        Id: g=02a711acc3de8b297a42d27ddb621c0c
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{AliasAllarmi}/Allarme2"
+    - Name: LastEvent
+      Id: g=5e0a9ed50bc272d28c32277f80c84aa2
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+    - Name: Message
+      Id: g=bf89ad0e6d359282189d6f9c6f71e74e
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: StringFormatter1
+        Id: g=eec6069d6e47c600efbfbe65cbb19316
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Id: g=c5d1391a4530ada1a031b81b61f78737
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=c496a0ef9bd0f615ec5838c58d7bbf61
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{AliasAllarmi}/NomeMotore"
+            Children:
+            - Name: IsPull
+              Id: g=1e0bc1ec371cbc48983b32a43ae60189
+              Type: BaseVariableType
+              DataType: Boolean
+              Value: true
+        - Name: IsPull
+          Id: g=0369394fe4703a2919cb6a5a92343653
+          Type: PropertyType
+          DataType: Boolean
+          ReferenceType: HasComponent
+          Value: true
+    - Name: Nome
+      Id: g=e5b76af07f3faf5e0e440a17d011e5d0
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+      Children:
+      - Name: DynamicLink
+        Id: g=f31e6464e2ab5325a41783ab088f02eb
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{AliasAllarmi}@BrowseName"
+  - Name: DigitalAlarm3
+    Id: g=474640c17a0aca399e1ea74618133a61
+    Type: OffNormalAlarmController
+    Children:
+    - Class: Reference
+      Target: ns=29;i=81
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=82
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=83
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=130
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=135
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=132
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=146
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=148
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=150
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=152
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=154
+      Direction: Forward
+    - Name: NormalStateValue
+      Id: g=78ec119a9a7b779c7d33479fa5fe0164
+      Type: BaseDataVariableType
+      DataType: Double
+    - Name: InputValue
+      Id: g=e95928ed8fe3b83d54ac6f83641393e2
+      Type: BaseDataVariableType
+      DataType: Double
+      Children:
+      - Name: DynamicLink
+        Id: g=5358fcbf260d61446302ce85a94e9b1c
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{AliasAllarmi}/Allarme3"
+    - Name: LastEvent
+      Id: g=d1ec6dc0bb88f85010485ee8cff27b4e
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+    - Name: Message
+      Id: g=619772e443f82a94eb8fcb52bec9e482
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: StringFormatter1
+        Id: g=a9b9a6c880ae58a5781d3afa090254d1
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Id: g=6cd48cd3caa6ea9697b13641f6c2df8c
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=00bd204d8c10e022b45b18cfebb1cf2d
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{AliasAllarmi}/NomeMotore"
+            Children:
+            - Name: IsPull
+              Id: g=59f78be0091027d63e5a119e489bc0e2
+              Type: BaseVariableType
+              DataType: Boolean
+              Value: true
+        - Name: IsPull
+          Id: g=6082baae3ca96e228125ee967d5c7239
+          Type: PropertyType
+          DataType: Boolean
+          ReferenceType: HasComponent
+          Value: true
+    - Name: Nome
+      Id: g=f7c396559e63bbb8676474e4aca9d170
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+      Children:
+      - Name: DynamicLink
+        Id: g=3ef0f1398c7470fd69141178a7c4f4b1
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{AliasAllarmi}@BrowseName"
+  - Name: AliasAllarmi
+    Id: g=26a509871708b022b447bf421d5b56be
+    Type: Alias
+    DataType: NodeId
+    Value: "/Objects/ElettromeccanicaVeneta_20_01_2025/Model/MotorePLC1"
+    Children:
+    - Name: Kind
+      Id: g=3f0857c45bffc13cefef5324ad8b9819
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/ElettromeccanicaVeneta_20_01_2025/Model/MotorePLC"
+- Name: AllarmiMotore2
+  Id: g=5905dcfbc847374c11beedb62b72ffe4
+  Type: AllarmiMotore
+  Children:
+  - Name: DigitalAlarm1
+    Id: g=a1f4a5723e1e3f5a1af00dd6883bc189
+    Type: OffNormalAlarmController
+    Children:
+    - Class: Reference
+      Target: ns=29;i=81
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=82
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=83
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=130
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=135
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=132
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=146
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=148
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=150
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=152
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=154
+      Direction: Forward
+    - Name: NormalStateValue
+      Id: g=6647470e813ccea12b0af07163c0b2d2
+      Type: BaseDataVariableType
+      DataType: Double
+    - Name: InputValue
+      Id: g=39e4cd6a3d2bcd6528b35c6f31265463
+      Type: BaseDataVariableType
+      DataType: Double
+      Children:
+      - Name: DynamicLink
+        Id: g=455ec58e064ba3372376a80181cb983c
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{AliasAllarmi}/Allarme1"
+    - Name: LastEvent
+      Id: g=416451a74abc9c97bed028a0a9b4c06b
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+    - Name: Message
+      Id: g=957dcaddfb5232662d222389ce4ca9ec
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Allarme "}
+      Children:
+      - Name: StringFormatter1
+        Id: g=61921745243c286c444b90b65f9ffea7
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Id: g=4ef7843648f1843cd9546a60a3090b87
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=3f2199a2e4379094f75bcf9ceb6869fa
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{AliasAllarmi}/NomeMotore"
+            Children:
+            - Name: IsPull
+              Id: g=cac3c8491b60dee65eb2b34898e677e3
+              Type: BaseVariableType
+              DataType: Boolean
+              Value: true
+        - Name: IsPull
+          Id: g=b4a95d0fce1e58076580df989435f5f4
+          Type: PropertyType
+          DataType: Boolean
+          ReferenceType: HasComponent
+          Value: true
+    - Name: Nome
+      Id: g=5149b21f5d51ed9ea8383265b1ba2ea6
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+      Children:
+      - Name: DynamicLink
+        Id: g=23eeb06b9acdf723d5c53ab8d842057f
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{AliasAllarmi}@BrowseName"
+  - Name: DigitalAlarm2
+    Id: g=b382ef4a0c2cde005bf53a1cc8312f72
+    Type: OffNormalAlarmController
+    Children:
+    - Class: Reference
+      Target: ns=29;i=81
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=82
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=83
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=130
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=135
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=132
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=146
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=148
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=150
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=152
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=154
+      Direction: Forward
+    - Name: NormalStateValue
+      Id: g=f2c77ff570691987673c35349a147c7c
+      Type: BaseDataVariableType
+      DataType: Double
+    - Name: InputValue
+      Id: g=adecff69c822e73f8741e62dde15d47b
+      Type: BaseDataVariableType
+      DataType: Double
+      Children:
+      - Name: DynamicLink
+        Id: g=a34105fa8ea30cab236ddb086fcb7d05
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{AliasAllarmi}/Allarme2"
+    - Name: LastEvent
+      Id: g=b2f47a0af41a1f13197d9ee77befb983
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+    - Name: Message
+      Id: g=5a94992c813c1a94b4c09c1748727d4a
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: StringFormatter1
+        Id: g=eba055c4100b79e47f60fc54c8e69a8c
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Id: g=54c57e24cc5de83ce22c2eda972f6b5e
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=ca12990e76227473b3d16d2bb9dd4226
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{AliasAllarmi}/NomeMotore"
+            Children:
+            - Name: IsPull
+              Id: g=924d5778fe19310c6f45b82bf3da1296
+              Type: BaseVariableType
+              DataType: Boolean
+              Value: true
+        - Name: IsPull
+          Id: g=5417fff373edc9eb5d00e61cef003f76
+          Type: PropertyType
+          DataType: Boolean
+          ReferenceType: HasComponent
+          Value: true
+    - Name: Nome
+      Id: g=23882ce41997c5c5a0066997fe6bee46
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+      Children:
+      - Name: DynamicLink
+        Id: g=eb5a2d22ca660d52e062b3bb921b23a7
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{AliasAllarmi}@BrowseName"
+  - Name: DigitalAlarm3
+    Id: g=54df957df9b633720f2a8fb13f8b7e96
+    Type: OffNormalAlarmController
+    Children:
+    - Class: Reference
+      Target: ns=29;i=81
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=82
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=83
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=130
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=135
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=132
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=146
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=148
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=150
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=152
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=154
+      Direction: Forward
+    - Name: NormalStateValue
+      Id: g=0ce020872c58e4bc0a359d30d136c181
+      Type: BaseDataVariableType
+      DataType: Double
+    - Name: InputValue
+      Id: g=5b166b7440b45e62c85ca6f2c4eb1406
+      Type: BaseDataVariableType
+      DataType: Double
+      Children:
+      - Name: DynamicLink
+        Id: g=c5a769e7917ce176f21b1085ed7dd213
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{AliasAllarmi}/Allarme3"
+    - Name: LastEvent
+      Id: g=8473342abf7190d65863b7789192fac6
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+    - Name: Message
+      Id: g=98b4defe79199bafbf54251626854970
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: StringFormatter1
+        Id: g=8d3e8f243a7a927a9e4aedab0fff701a
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Id: g=5221882b268fe14fa96ee3a7e883aeef
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=6047591612bbdbc9a8da6d6ebb1efd23
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{AliasAllarmi}/NomeMotore"
+            Children:
+            - Name: IsPull
+              Id: g=b53f247da545506757feadc99c9249ee
+              Type: BaseVariableType
+              DataType: Boolean
+              Value: true
+        - Name: IsPull
+          Id: g=5a216199edd95419fa4d8e3f97315b22
+          Type: PropertyType
+          DataType: Boolean
+          ReferenceType: HasComponent
+          Value: true
+    - Name: Nome
+      Id: g=d592807c8ed3fb1eafa17ffbf6c65054
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+      Children:
+      - Name: DynamicLink
+        Id: g=1234970c2654eb22251c8af6e26a16d1
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{AliasAllarmi}@BrowseName"
+  - Name: AliasAllarmi
+    Id: g=eab6eeb7f150e966a0aacba7e5dc2d80
+    Type: Alias
+    DataType: NodeId
+    Value: "/Objects/ElettromeccanicaVeneta_20_01_2025/Model/MotorePLC2"
+    Children:
+    - Name: Kind
+      Id: g=c5d99ab61a07099336bdf2668746f761
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/ElettromeccanicaVeneta_20_01_2025/Model/MotorePLC"
+- Name: AllarmiMotore3
+  Id: g=173fe2d9ca28a27cc04ee828d58fd710
+  Type: AllarmiMotore
+  Children:
+  - Name: DigitalAlarm1
+    Id: g=488d82bf6f3ca476ab964b5009c25bcf
+    Type: OffNormalAlarmController
+    Children:
+    - Class: Reference
+      Target: ns=29;i=81
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=82
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=83
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=130
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=135
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=132
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=146
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=148
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=150
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=152
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=154
+      Direction: Forward
+    - Name: NormalStateValue
+      Id: g=a3cbb6a4756f5f9c5f386ed65fb0ff32
+      Type: BaseDataVariableType
+      DataType: Double
+    - Name: InputValue
+      Id: g=491e823d6628ef0c7db97e04f72b2835
+      Type: BaseDataVariableType
+      DataType: Double
+      Children:
+      - Name: DynamicLink
+        Id: g=90c3d77cb7a762e114984a4341571c35
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{AliasAllarmi}/Allarme1"
+    - Name: LastEvent
+      Id: g=4a8ea87a95d3fffeb1598b313a260d79
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+    - Name: Message
+      Id: g=dd487796c6b0899dcff37187225ca173
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Allarme "}
+      Children:
+      - Name: StringFormatter1
+        Id: g=4784200af501ca5c71a8885a314a55d8
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Id: g=457171fc3fdbb35da7000bb4f7456630
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=944e21c4f4c2d027e73652be3c0c7d68
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{AliasAllarmi}/NomeMotore"
+            Children:
+            - Name: IsPull
+              Id: g=e1ddd85b862b2a4bb031ef66f3937e95
+              Type: BaseVariableType
+              DataType: Boolean
+              Value: true
+        - Name: IsPull
+          Id: g=6d370bd40922027d7ed6242b93a72fc7
+          Type: PropertyType
+          DataType: Boolean
+          ReferenceType: HasComponent
+          Value: true
+    - Name: Nome
+      Id: g=4564fb16a077d94bc47e0e673de2fc39
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+      Children:
+      - Name: DynamicLink
+        Id: g=b56efa07e15055c87c66532862de7364
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{AliasAllarmi}@BrowseName"
+  - Name: DigitalAlarm2
+    Id: g=b82acb4140dc23370719bb0759378968
+    Type: OffNormalAlarmController
+    Children:
+    - Class: Reference
+      Target: ns=29;i=81
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=82
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=83
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=130
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=135
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=132
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=146
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=148
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=150
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=152
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=154
+      Direction: Forward
+    - Name: NormalStateValue
+      Id: g=76f32ef0d1f837872a9672caad20e33b
+      Type: BaseDataVariableType
+      DataType: Double
+    - Name: InputValue
+      Id: g=c7b3e97d751762e6b52085c3b7daa219
+      Type: BaseDataVariableType
+      DataType: Double
+      Children:
+      - Name: DynamicLink
+        Id: g=332d430476b1b78a62c12f8365172a5b
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{AliasAllarmi}/Allarme2"
+    - Name: LastEvent
+      Id: g=b2d9a04b3a13309158ac5f86bf8fb93b
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+    - Name: Message
+      Id: g=3320e2ba2e76115d734d3195e5860399
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: StringFormatter1
+        Id: g=f98437139226e365f0887d29ddfa4633
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Id: g=6361ab3c4b5679e255d0d8ebb2d12339
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=ffa33a93d867f0988f7812a19d3d7e52
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{AliasAllarmi}/NomeMotore"
+            Children:
+            - Name: IsPull
+              Id: g=debaf8dad28a63e3b1e27110979f8e6f
+              Type: BaseVariableType
+              DataType: Boolean
+              Value: true
+        - Name: IsPull
+          Id: g=c856cfef44c289b36a9c8bdbadafc291
+          Type: PropertyType
+          DataType: Boolean
+          ReferenceType: HasComponent
+          Value: true
+    - Name: Nome
+      Id: g=6bb428b7d1927940e7b29668b03ca694
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+      Children:
+      - Name: DynamicLink
+        Id: g=49cb804c7a3a80764741290aa4c93bad
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{AliasAllarmi}@BrowseName"
+  - Name: DigitalAlarm3
+    Id: g=a7fb9a5de394b4b49312583fc214b81a
+    Type: OffNormalAlarmController
+    Children:
+    - Class: Reference
+      Target: ns=29;i=81
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=82
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=83
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=130
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=135
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=132
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=146
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=148
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=150
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=152
+      Direction: Forward
+    - Class: Reference
+      Target: ns=29;i=154
+      Direction: Forward
+    - Name: NormalStateValue
+      Id: g=8e4b95d2164414e8db75704fd5debb53
+      Type: BaseDataVariableType
+      DataType: Double
+    - Name: InputValue
+      Id: g=388e0c322f9021b948b4fe8ab0a43d8f
+      Type: BaseDataVariableType
+      DataType: Double
+      Children:
+      - Name: DynamicLink
+        Id: g=d285a86b34631eedf3562af51d6d6de1
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{AliasAllarmi}/Allarme3"
+    - Name: LastEvent
+      Id: g=4d9a6b44f79105dd87e39477ae02d1ef
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+    - Name: Message
+      Id: g=fb5ce6723971a83f0cb61e75ad917f7e
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: StringFormatter1
+        Id: g=c7b228299e9f22e737d306661d2125c0
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Id: g=bf4b5a23e85d6f355a39f856356abe77
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=98f0224ddc5134312b271a889fcaf781
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{AliasAllarmi}/NomeMotore"
+            Children:
+            - Name: IsPull
+              Id: g=387cb1fb451c4e7301a0d84d0993909c
+              Type: BaseVariableType
+              DataType: Boolean
+              Value: true
+        - Name: IsPull
+          Id: g=6ee82c3cf6f388bd2a7e171a2e68af68
+          Type: PropertyType
+          DataType: Boolean
+          ReferenceType: HasComponent
+          Value: true
+    - Name: Nome
+      Id: g=6de2ee054fa02c5f946510c9ef1d8e8b
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "0"
+      Children:
+      - Name: DynamicLink
+        Id: g=a5b45bd9a467571e78c101db064d4194
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{AliasAllarmi}@BrowseName"
+  - Name: AliasAllarmi
+    Id: g=86e0ca7c7fdcc069cd37061971a7b12e
+    Type: Alias
+    DataType: NodeId
+    Value: "/Objects/ElettromeccanicaVeneta_20_01_2025/Model/MotorePLC3"
+    Children:
+    - Name: Kind
+      Id: g=c9656b579b2f9257261ae6e5fc84bdd1
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/ElettromeccanicaVeneta_20_01_2025/Model/MotorePLC"
+- Name: Variable1Changed
+  Id: g=c0af8b0884f83a6013214075102e7487
+  Type: VariableChangedEventDispatcher
+  Children:
+  - Name: VariableNodePath
+    Id: g=ee94b732c9bbd76a9018471c27e984c5
+    Type: BaseVariableType
+    DataType: NodePath
+    Value: "../Variable1"

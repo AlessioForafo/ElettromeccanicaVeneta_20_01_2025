@@ -1,0 +1,78 @@
+Name: ElettromeccanicaVeneta_20_01_2025
+Id: g=175a893c37c66c8b0bb48c1566d3d5e5
+Type: ProjectFolder
+Children:
+- Name: Localization
+  Id: g=1091fda5890a58176a3eb73bb428b7d0
+  Type: PropertyGroup
+  Children:
+  - Name: Locales
+    Id: g=7068c124367d229859350c6d388d06fa
+    Type: BaseDataVariableType
+    DataType: LocaleId
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]
+  - Name: LocaleFallbackList
+    Id: g=40083eb41978aa73589d622a92928b68
+    Type: BaseDataVariableType
+    DataType: LocaleId
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]
+- Name: Authentication
+  Id: g=5525d20e3ff177a0014102a62958a5bd
+  Type: PropertyGroup
+  Children:
+  - Name: DefaultUserFolder
+    Id: g=075e38424b96e0277c3bed1258630827
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/ElettromeccanicaVeneta_20_01_2025/Security/Users"
+    Children:
+    - Name: Kind
+      Id: g=f93674e9e234fe73d8c027810fca6f5a
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/FolderType"
+- Name: PasswordPolicy
+  Id: g=b4a18fc628dab24004c8660da246d0c8
+  Type: PasswordPolicy
+  Children:
+  - Name: MaximumPasswordAge
+    Id: g=f4c9c28e126c6e80ae203994dc2b117e
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: EnforcePasswordHistory
+    Id: g=7fcc25de45c862f12f16ddb27b63036c
+    Type: BaseDataVariableType
+    DataType: Byte
+    Value: 1
+  - Name: MinimumPasswordAge
+    Id: g=9759466dce93c92a6c5425c5b17c5f7c
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MinimumPasswordLength
+    Id: g=483e1876444662edfb5b9459dc00b8ca
+    Type: BaseDataVariableType
+    DataType: Byte
+    Value: 8
+- Name: AlarmConfiguration
+  Id: g=ff421f15006ee645410dbba9ed0523fe
+  Type: PropertyGroup
+- File: UI/UI.yaml
+- File: Model/Model.yaml
+- File: Converters/Converters.yaml
+- File: Alarms/Alarms.yaml
+- File: Recipes/Recipes.yaml
+- File: Loggers/Loggers.yaml
+- File: DataStores/DataStores.yaml
+- File: Reports/Reports.yaml
+- File: 'OPC-UA/OPC-UA.yaml'
+- File: MQTT/MQTT.yaml
+- File: CommDrivers/CommDrivers.yaml
+- File: NetLogic/NetLogic.yaml
+- File: Security/Security.yaml
+- File: System/System.yaml
+- File: Translations/Translations.yaml
+- File: Retentivity/Retentivity.yaml

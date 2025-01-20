@@ -1,0 +1,2041 @@
+Name: DeviceSettingsWidgetComponents
+Id: g=eda55fea0f6f53a950814642145f3809
+Type: FolderType
+Children:
+- Name: Configuration
+  Id: g=9cf154c923572624320f16c16fa657a3
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Id: g=a1e8285c0b128a2ff306c9d4cff1a4d2
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 400.0
+  - Name: Height
+    Id: g=764a0eef26a04a710146975258164950
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 207.0
+  - Name: ApplicationNameLabel
+    Id: g=a88f2a6d5aefa3404b2c24f3a56ad4b1
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=c3605288dbf4fca0fe17bf8ffb6a15c4
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"NamespaceIndex":18,"TextId":"ApplicationName"}
+    - Name: LeftMargin
+      Id: g=7f4c07c99a20c541899cf9d58a55e9b0
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 18.0
+    - Name: TopMargin
+      Id: g=87a0e7d9895a98cfb671a85ec481a824
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 92.0
+    - Name: FontFamily
+      Id: g=5bcc3392dfda6f670026954be9a9b070
+      Type: BaseDataVariableType
+      DataType: Font
+      ModellingRule: Optional
+    - Name: TextHorizontalAlignment
+      Id: g=1f7b3d2af717c2b1a83ffea482a0083f
+      Type: BaseVariableType
+      DataType: TextHorizontalAlignment
+      ModellingRule: Optional
+    - Name: HorizontalAlignment
+      Id: g=d70ab7c651f7cd4addc0a2f41a7d4336
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+  - Name: ApplicationNameValueLabel
+    Id: g=3e13e9e8c7112097cfff394a9025bb01
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=d384f9d8c399c2de2fc4464439c1ec33
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: LeftMargin
+      Id: g=44bff8530d733b8d5f947201b21771e5
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 18.0
+    - Name: TopMargin
+      Id: g=0bb5e90fe1f1bc9da42a77c4ae40526a
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 111.0
+    - Name: FontFamily
+      Id: g=9447d28934c372de095f1c562932ea02
+      Type: BaseDataVariableType
+      DataType: Font
+      ModellingRule: Optional
+    - Name: HorizontalAlignment
+      Id: g=51a465838a7c7104936f53789f5321af
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+    - Name: FontWeight
+      Id: g=a3d0792ab170c0ad253f573f7475c3fa
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 700
+    - Name: ApplicationNameLogic
+      Id: g=6750a3c8827aa2b7b2f03750ced24a9d
+      Type: NetLogic
+  - Name: DeviceNameLabel
+    Id: g=7e2b4b4dfa08718d72a3e0a8aaf3d4b3
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=c16d8087e0ccaf197ef0b2e2daeadb6e
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"NamespaceIndex":18,"TextId":"DeviceName"}
+    - Name: LeftMargin
+      Id: g=12539f22eee155f3f76887237bfca7c0
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 18.0
+    - Name: TopMargin
+      Id: g=6db8f654cb2f45e32736ab36b5443c49
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 35.0
+    - Name: FontFamily
+      Id: g=331f5f404227bb7b24dfca057ac8e837
+      Type: BaseDataVariableType
+      DataType: Font
+      ModellingRule: Optional
+    - Name: HorizontalAlignment
+      Id: g=7fce03b684569257253f517fcf0f68d0
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+  - Name: DeviceNameValueTextbox
+    Id: g=f182c86dd50df28c670ba1e6b4fd61d6
+    Type: TextBox
+    Children:
+    - Name: Text
+      Id: g=61e8bc8f481c7e2d7f30e9b3f724fc7e
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: DynamicLink
+        Id: g=b22c0d6b0dfa3254d64d597d30df56a6
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{SystemNode}/Device/Hostname"
+        Children:
+        - Name: Mode
+          Id: g=feb24e7466d2d0f0a00d2a2c5c4abe1d
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: Width
+      Id: g=e7329de793206555314f21ef000ca5d4
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 320.0
+    - Name: LeftMargin
+      Id: g=965d6c1fc2821e0c0d9dd22d52f1a79f
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 18.0
+    - Name: TopMargin
+      Id: g=20ece388a01cc88b8c4a2f3c1bed9c53
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 57.0
+    - Name: TextVerticalAlignment
+      Id: g=c3ea371d356874a0e78ee037987b47db
+      Type: BaseVariableType
+      DataType: TextVerticalAlignment
+      ModellingRule: Optional
+    - Name: FontWeight
+      Id: g=15ac8b7842a9188a880e25b84ee830bc
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 700
+  - Name: ProtectionModeEnableCheckbox
+    Id: g=07850b99c2b5e233ea0c4676b4e4bf0d
+    Type: CheckBox
+    Children:
+    - Name: Checked
+      Id: g=dd676efe80428e966ee4bd8a3cb3ae01
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
+      Children:
+      - Name: DynamicLink
+        Id: g=105337af550848f6afb23d6d6a34a68f
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{SystemNode}/Device/ProtectionModeEnabled"
+        Children:
+        - Name: Mode
+          Id: g=c87e1d287c37eeaa5e3448092a65d2ab
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: Text
+      Id: g=e64034af8a695bf6fec9c221e9661a23
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"NamespaceIndex":18,"TextId":"DisableApplicationAndFirmwareUpdates"}
+    - Name: LeftMargin
+      Id: g=2dafa94f98d6c4222d4c5503c2eee2ce
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 18.0
+    - Name: TopMargin
+      Id: g=cb976237d16641c7e268305d20e8175e
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 10.0
+  - Name: PolyLine1
+    Id: g=e56ef198701978ea3bc60a8ecfecdfd8
+    Type: PolyLine
+    Children:
+    - Name: LineColor
+      Id: g=5b7e0a771f7af971e61dc3abc4569bd5
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#b3b3b3"
+    - Name: FillColor
+      Id: g=cf5aa528579066d4da522572859b56c8
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#ffffff"
+    - Name: LineThickness
+      Id: g=24dddff98e60c798cea9364b0dde018d
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1.0
+    - Name: Blink
+      Id: g=0f845c0b235fd14d7d823fabf033816a
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+    - Name: Path
+      Id: g=badb94034e40508bb2e5b1e9c2d50063
+      Type: BaseDataVariableType
+      DataType: String
+      ModellingRule: Optional
+      Value: "M 0.000000 0.000000 L 360.000000 0.000000"
+    - Name: HitTestVisible
+      Id: g=2e3b3760ac683be349f28021872f791f
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+    - Name: Visible
+      Id: g=6c2e838d88e478e9f838823372d2a299
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+    - Name: Enabled
+      Id: g=117acc4312c78ad6cfee1dac562cbc10
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+    - Name: Opacity
+      Id: g=7283cc8fdcaff09a8943ffc4402300b1
+      Type: BaseVariableType
+      DataType: Float
+      ModellingRule: Optional
+      Value: 100.0
+    - Name: LeftMargin
+      Id: g=5d5ba544dab398ede3d2e79dfc84764f
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 18.0
+    - Name: TopMargin
+      Id: g=9cc53783d82d98b6f7af7c265336cb89
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 135.0
+    - Name: RightMargin
+      Id: g=eb51931447372975ef9c2140750288ae
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: BottomMargin
+      Id: g=e55eea343e6172bba873d275a7e53746
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: Width
+      Id: g=097e2becf8180293508c85076fb33d22
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 366.0
+    - Name: Height
+      Id: g=54ae4381a2c8b8968b7c87ebb8caa7fa
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: HorizontalAlignment
+      Id: g=09790d5bcafe91bfcda95e528dbbb9f5
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+    - Name: VerticalAlignment
+      Id: g=8932f939e1900e264aa2e80fd35833ac
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+    - Name: Rotation
+      Id: g=42f548744a2ad2af250f9a180612afc3
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+  - Name: SystemNode
+    Id: g=0d15bfb8243c3fda7e595b0868bc8f6b
+    Type: Alias
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Id: g=1f7c16495f81e8019d907bd13eec968a
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/System"
+  - Name: BottomBar
+    Id: g=9c3cd318e06cc3f609b9a16c65c21a02
+    Type: Panel
+    Children:
+    - Name: Width
+      Id: g=13662e5bee0ed3080357087876384b16
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 400.0
+    - Name: Height
+      Id: g=c61ac4c4e6320f101bd27602cf8fe26f
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 56.0
+    - Name: RebootButton
+      Id: g=94aebb3da0c92d254ff5d7522b430603
+      Type: Button
+      Children:
+      - Name: Text
+        Id: g=9c0f6ba5250bc4c822353689a0dea5d8
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"NamespaceIndex":18,"TextId":"Reboot"}
+      - Name: Width
+        Id: g=60f4037e7bb8128153a415c7f620e741
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 80.0
+      - Name: Height
+        Id: g=020b2bae7f4e51f39fa86d0719c6161f
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 34.0
+      - Name: LeftMargin
+        Id: g=699345b2277bd3bf286148e8314b3a40
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 304.0
+      - Name: Visible
+        Id: g=cb1022eacae46c2afe2ea00f9e4e1350
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: MouseClickEventHandler1
+        Id: g=d09a16e3a8f58d4d82e89aff10be58a0
+        Type: EventHandler
+        Children:
+        - Name: ListenEventType
+          Id: g=9869042aafdced455599f042942131ed
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+        - Name: MethodsToCall
+          Id: g=64630b19161f5fa072a76e3986ea3ccb
+          Type: BaseObjectType
+          Children:
+          - Name: MethodContainer1
+            Id: g=70c5c764f2b0cb2650af32f748b221e3
+            Type: BaseObjectType
+            Children:
+            - Name: ns=3;ObjectPointer
+              Id: g=f07bf18cfa7091dce497a7af58406931
+              Type: NodePointer
+              DataType: NodeId
+              Children:
+              - Name: Kind
+                Id: g=9a29c0c62781ba0100cc64c2016b4014
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/ObjectTypes/BaseObjectType"
+              - Name: DynamicLink
+                Id: g=801735e03309c77425d03ea2c8ee4cc2
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{SystemNode}@NodeId"
+                Children:
+                - Name: Mode
+                  Id: g=97d75062af81d6b197d2dd1b23c9d5f0
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  ModellingRule: Optional
+                  Value: 2
+            - Name: ns=3;Method
+              Id: g=478c837e7e4b42d81cd02d714e40e243
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Reboot"
+        - Name: EventArguments
+          Id: g=66642b6b69145b19507ae6d0038cd481
+          Type: MouseClickEvent
+          Children:
+          - Name: EventId
+            Id: g=529fc9fecf8e09e537ee9fce1269c548
+            Type: PropertyType
+            DataType: ByteString
+          - Name: EventType
+            Id: g=27dc9037dbaf68c93a50c7e4045cb93c
+            Type: PropertyType
+            DataType: NodeId
+          - Name: SourceNode
+            Id: g=bd6c22ffea0a7bade024fbaa5a0f374b
+            Type: PropertyType
+            DataType: NodeId
+          - Name: SourceName
+            Id: g=09a3876df257a7cd683c03b2dc305a3a
+            Type: PropertyType
+            DataType: String
+          - Name: Time
+            Id: g=c571871f5ed5184d77740d6a72366d11
+            Type: PropertyType
+            DataType: UtcTime
+          - Name: ReceiveTime
+            Id: g=126508d60d4d086a95b76a50137ba06a
+            Type: PropertyType
+            DataType: UtcTime
+          - Name: Message
+            Id: g=18db62d324b7a6e85e0503324c7a105c
+            Type: PropertyType
+            DataType: LocalizedText
+          - Name: Severity
+            Id: g=bda143b828dd08e9a4b13c63d3b6caa8
+            Type: PropertyType
+            DataType: UInt16
+      - Name: Enabled
+        Id: g=bf22dd1e811e87e5f1481245356beb3a
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Id: g=3cd6d0892fc8eb04fc7d026c3e13e19f
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{SystemNode}/RebootRequired"
+      - Name: VerticalAlignment
+        Id: g=6bc0e111f6c5dd6098d22c99f8b4287f
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 2
+    - Name: MessageLabel
+      Id: g=9d6a66640b93a999ffdcfb5a86d6d544
+      Type: Label
+      Children:
+      - Name: Text
+        Id: g=9fdd43e7e5d51b210a693dc922cb4692
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"NamespaceIndex":18,"TextId":"RebootToCommitChanges"}
+      - Name: LeftMargin
+        Id: g=2f3d17e00c2d1cee1f828222dae31752
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 42.0
+      - Name: Visible
+        Id: g=0a5e6c4e427860fc6cebcc40ae52971e
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Id: g=c68180b81fbd6ec20b686be9ee8b5d93
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{SystemNode}/RebootRequired"
+      - Name: VerticalAlignment
+        Id: g=2c8b64b8f67f6f692326e256047118cb
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 2
+      - Name: Width
+        Id: g=0ac3e8b8a7b68697c8717193f5662d81
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 255.0
+      - Name: WordWrap
+        Id: g=e9a954280a417398687ba201e9cd612e
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+        Value: true
+    - Name: WarningImage
+      Id: g=27bb1dd05b3b5c9db7f2345975c8e017
+      Type: Image
+      Children:
+      - Name: Path
+        Id: g=d3baa3c944acce68f4d50e0f2929a3b3
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=18;%PROJECTDIR%/WarningIcon.svg"
+      - Name: Width
+        Id: g=ab6d409f3e0ad99643177806ea552f0b
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 16.0
+      - Name: Height
+        Id: g=b454ed7ccf251bbe03fdddac2bda50c9
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 16.0
+      - Name: LeftMargin
+        Id: g=d4e8ca55932f45fb89d79f2848cd10b1
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
+      - Name: Visible
+        Id: g=8a7197f3cc352e2d5a1006d20864b948
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Id: g=2afea740a3504dcceba31c5a86e178ea
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{SystemNode}/RebootRequired"
+      - Name: VerticalAlignment
+        Id: g=d3654234894664bd1edafa7f126db940
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 2
+    - Name: TopMargin
+      Id: g=7d500b0be5e802eefad496e20268a0ec
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 143.0
+  - Name: HorizontalAlignment
+    Id: g=b2975afdb7072b023472d2cb8cb47019
+    Type: BaseVariableType
+    DataType: HorizontalAlignment
+    ModellingRule: Optional
+    Value: 3
+  - Name: VerticalAlignment
+    Id: g=7570f037e5e360921c5d66fce4b2792d
+    Type: BaseVariableType
+    DataType: VerticalAlignment
+    ModellingRule: Optional
+    Value: 3
+- Name: Product_Information
+  Id: g=548a589cc1532b072d9d24316f7b6090
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Id: g=18746e92c7c0713c90567d1d6649a2b1
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 400.0
+  - Name: Height
+    Id: g=55c0f6fd132d56ddd2e6a8198eade5b1
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 207.0
+  - Name: CatalogNumberLabel
+    Id: g=7552ebc34c113d09601aebef9567b310
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=e2529537aa579af813f8fd7eae9d23b4
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"NamespaceIndex":18,"TextId":"CatalogNumber"}
+    - Name: LeftMargin
+      Id: g=e7940103f4b5bc650c0be2aa49f5a159
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 246.0
+    - Name: TopMargin
+      Id: g=cedcdfe3eb0c61cdc3d763ccec55e397
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 15.0
+    - Name: HorizontalAlignment
+      Id: g=92055b06feb5e1ffaedcfe2910be2f09
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+  - Name: CatalogNumberValueLabel
+    Id: g=d23af806e63952bcbd14be48474f338b
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=04fbd41621bcfbd2003d5adb07757958
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: DynamicLink
+        Id: g=a3b2cb62e599bdea39029bb3deb0cce1
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{SystemNode}/Device/CatalogNumber"
+    - Name: LeftMargin
+      Id: g=c7d79d4bec0ebf689c9695fc69db1490
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 246.0
+    - Name: TopMargin
+      Id: g=4b23fb2f0cf44eac1e081854e34ee3a9
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 34.0
+    - Name: FontFamily
+      Id: g=572702e3173532d0457082dbed441e1e
+      Type: BaseDataVariableType
+      DataType: Font
+      ModellingRule: Optional
+    - Name: FontWeight
+      Id: g=db671cd9dff2f82b7e723503d95875e7
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 700
+  - Name: ProductNameLabel
+    Id: g=eb1f44b64f843ba90bf95c0f76ff65a0
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=367c02b0abe6d8c73ac85d3ecdbff211
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"NamespaceIndex":18,"TextId":"ProductName"}
+    - Name: LeftMargin
+      Id: g=1ddae6fae90ac8d26707a98672bc95db
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 18.0
+    - Name: TopMargin
+      Id: g=94c4c279a9d3ee6029e7f30a13eb1552
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 15.0
+    - Name: HorizontalAlignment
+      Id: g=617c3c40d8e3aadc942ff166303c2ed5
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+  - Name: ProductNameValueLabel
+    Id: g=57a3b936f1d77b671a48ca41521cae73
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=b1fe01318f26017000e423ad35bee65e
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: DynamicLink
+        Id: g=647ad5217a32f4477ab442564161e464
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{SystemNode}/Device/ProductName"
+    - Name: LeftMargin
+      Id: g=32856e67077439776542015083e7f3c8
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 18.0
+    - Name: TopMargin
+      Id: g=31eb7b24ec8c68326d60509b86186185
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 34.0
+    - Name: FontFamily
+      Id: g=0298cc1998537b6399158126cb83a3b0
+      Type: BaseDataVariableType
+      DataType: Font
+      ModellingRule: Optional
+    - Name: FontWeight
+      Id: g=106fe66b6d7e423dbbe2a132fac82872
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 700
+  - Name: VersionsRectangle
+    Id: g=fb952c4aa8a831ca3abc524f748abe1c
+    Type: Rectangle
+    Children:
+    - Name: Width
+      Id: g=4ccd0883be8a986b9b5c03b0ac4014d3
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 368.0
+    - Name: Height
+      Id: g=0cfe5bff9924f5938e30fbffb3040476
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 128.0
+    - Name: BorderThickness
+      Id: g=31cea76d97a2eea26d08640c0e7db3a6
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1.0
+    - Name: TopMargin
+      Id: g=b6c5cea6ada9f167239d46a367ca0deb
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 66.0
+    - Name: LeftMargin
+      Id: g=7f32044bfff3d37d786ee6a66d19178f
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 16.0
+    - Name: BorderColor
+      Id: g=e60177d5f0cbf668d5e6103544cbfd3b
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#b3b3b3"
+    - Name: FillColor
+      Id: g=1dec3b2d31daf6e12f078f589da543df
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+    - Name: CornerRadius
+      Id: g=8dd324b8666c39d3a4298fe6f1bb800a
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 8.0
+    - Name: FTOptixStudioLabel
+      Id: g=5ad34b39fd4960618498b3c5fbd984f3
+      Type: Label
+      Children:
+      - Name: Text
+        Id: g=6e9dccc585a4fa0aacc1d71074f020d9
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"NamespaceIndex":18,"TextId":"FTOptixStudio"}
+      - Name: LeftMargin
+        Id: g=082ae8d6b6aac72df69073f0b2f2c26d
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 155.0
+      - Name: TopMargin
+        Id: g=852b2125dce47628525efecc58251a9a
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 78.0
+    - Name: FTOptixStudioValueLabel
+      Id: g=5584707be351948b43633eafd444b4cd
+      Type: Label
+      Children:
+      - Name: LeftMargin
+        Id: g=ef58483977f56fe594afd65474c2e6bc
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 155.0
+      - Name: TopMargin
+        Id: g=f6afd235bddd4daad33eadbcebd127ac
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 97.0
+      - Name: FontFamily
+        Id: g=7bba92eb2e7093b5711fdbc9bd387e59
+        Type: BaseDataVariableType
+        DataType: Font
+        ModellingRule: Optional
+      - Name: FontWeight
+        Id: g=f85ab1e36ab7e13596dafe09c9102f00
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        ModellingRule: Optional
+        Value: 700
+      - Name: Text
+        Id: g=580f908c17063521f889297dd8f9e9b2
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":""}
+      - Name: FTOptixStudioVersionLogic
+        Id: g=9d977084760512fd7f175571b5d1d163
+        Type: NetLogic
+    - Name: OptixPanelFirmwareLabel
+      Id: g=8a72706be60492e41f561bff69549804
+      Type: Label
+      Children:
+      - Name: Text
+        Id: g=e24ca9863b2fa41a43ac4688d2752bb6
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"NamespaceIndex":18,"TextId":"OptixPanelFirmware"}
+      - Name: LeftMargin
+        Id: g=db12a7847aee6d7911bbd1c856868bc3
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 9.0
+      - Name: TopMargin
+        Id: g=736e3c2ddcb96b6c89cc57415a4b1d89
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 35.0
+    - Name: OptixPanelFirmwareValueLabel
+      Id: g=ae88a9210adeba93e8bb8744b312bdeb
+      Type: Label
+      Children:
+      - Name: Text
+        Id: g=648f579dba624142514555f409fb7094
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Children:
+        - Name: DynamicLink
+          Id: g=72084829416e5f1584690760824e9356
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{SystemNode}/Device/FirmwareVersion"
+      - Name: LeftMargin
+        Id: g=7b8a404355ea7c884e8db8b67680f657
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 9.0
+      - Name: TopMargin
+        Id: g=c7fee860e9d358f892be7a17e9d01e07
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 54.0
+      - Name: FontFamily
+        Id: g=9223319ae1cce4d8f6184d8b2d7ff7c2
+        Type: BaseDataVariableType
+        DataType: Font
+        ModellingRule: Optional
+      - Name: FontWeight
+        Id: g=9d3eec208a49bd4e5e8355e464bd86aa
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        ModellingRule: Optional
+        Value: 700
+    - Name: OSLabel
+      Id: g=34b9a6b3349fc089e052387b57ec7af8
+      Type: Label
+      Children:
+      - Name: Text
+        Id: g=2e5d76206b82a9caa344ff178ac73882
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"NamespaceIndex":18,"TextId":"OS "}
+      - Name: LeftMargin
+        Id: g=8f35a62504f4b75d8756e494c9d2919c
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 155.0
+      - Name: TopMargin
+        Id: g=d02c124c97a5f92402be6664177d86b9
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 35.0
+    - Name: OSValueLabel
+      Id: g=33451b510a30b6b8caec693b57b6138f
+      Type: Label
+      Children:
+      - Name: Text
+        Id: g=c034d98b9fbe0590fdc7b113d37d00b0
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Children:
+        - Name: DynamicLink
+          Id: g=92a146a2e62bddab69cb1fece6dc63ac
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{SystemNode}/Device/OSVersion"
+      - Name: LeftMargin
+        Id: g=9e3bf3f79dfd0def7d818b2d627247ad
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 155.0
+      - Name: TopMargin
+        Id: g=96451ac74b9e9faa25da3b0121a6f434
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 54.0
+      - Name: FontFamily
+        Id: g=e5e056f3820e2833c17d70ba56b44b1c
+        Type: BaseDataVariableType
+        DataType: Font
+        ModellingRule: Optional
+      - Name: FontWeight
+        Id: g=b4f4280d4fc6574ce45c4e802af56e5a
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        ModellingRule: Optional
+        Value: 700
+    - Name: SystemManagerLabel
+      Id: g=74b4afc3e0ff08304dbe21495c494f73
+      Type: Label
+      Children:
+      - Name: Text
+        Id: g=e7e0372eeaf9267528561a35bd064e52
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"NamespaceIndex":18,"TextId":"SystemManager"}
+      - Name: LeftMargin
+        Id: g=4eb3255bca9f78a5539067969d298aa9
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 9.0
+      - Name: TopMargin
+        Id: g=e11ccb6b54af4064aca92b2f09bb1076
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 78.0
+      - Name: HorizontalAlignment
+        Id: g=39883b1a4a4bed7fb796f480b9d216f9
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+    - Name: SystemManagerValueLabel
+      Id: g=0c8b9e28c8aa3f97c03d2081bd6d0d9b
+      Type: Label
+      Children:
+      - Name: Text
+        Id: g=f0ed40f38160ad01bca398182cfbf174
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Children:
+        - Name: DynamicLink
+          Id: g=008748914132f9c1428782a76b6cd3fb
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{SystemNode}/Device/SystemManagerVersion"
+      - Name: LeftMargin
+        Id: g=423a798ef0cab37ec6939af1f5e8e210
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 9.0
+      - Name: TopMargin
+        Id: g=639fa4ad309bd0cd593173ad9a1b582f
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 97.0
+      - Name: FontFamily
+        Id: g=6e440903ba8316c75101de3294f343ef
+        Type: BaseDataVariableType
+        DataType: Font
+        ModellingRule: Optional
+      - Name: FontWeight
+        Id: g=99fbe3c4e67d4f8fc303f180455ff70c
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        ModellingRule: Optional
+        Value: 700
+    - Name: VersionsLabel
+      Id: g=351e70256f3690f10c403eb47fc7ccb2
+      Type: Label
+      Children:
+      - Name: Text
+        Id: g=4835c4718a0729175ecacaa99d0f4a5b
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"NamespaceIndex":18,"TextId":"Versions"}
+      - Name: LeftMargin
+        Id: g=46da9634bb198d1f4c2ab46a55b4dd05
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 9.0
+      - Name: TopMargin
+        Id: g=78bd8d346445843df22ec5be90cabd22
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 7.0
+      - Name: FontFamily
+        Id: g=e0e4cd917c6efc8e9a743354853bb0e2
+        Type: BaseDataVariableType
+        DataType: Font
+        ModellingRule: Optional
+      - Name: FontSize
+        Id: g=f92f5f588174b1c34969631d66144635
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 14.0
+      - Name: HorizontalAlignment
+        Id: g=c845687e980dc6085df41ae528db5ab2
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+      - Name: FontWeight
+        Id: g=70ffd87c64080457f80e044bfd6558c6
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        ModellingRule: Optional
+        Value: 700
+  - Name: SystemNode
+    Id: g=6e1707bb1ef771f343fc56392a3479eb
+    Type: Alias
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Id: g=7282d75f435697a562955067bd4cab49
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/System"
+  - Name: HorizontalAlignment
+    Id: g=e8775a81be6a0295571b5ce8d282da84
+    Type: BaseVariableType
+    DataType: HorizontalAlignment
+    ModellingRule: Optional
+    Value: 3
+  - Name: VerticalAlignment
+    Id: g=84741e67ef979d2ada13076ad445ced5
+    Type: BaseVariableType
+    DataType: VerticalAlignment
+    ModellingRule: Optional
+    Value: 3
+- Name: Diagnostics
+  Id: g=632709bc0ca708c922da2f68cb20eb09
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Id: g=b1222d3349fdabdea361b311ff4ecbaa
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 400.0
+  - Name: Height
+    Id: g=2ffe2c69508d5f983b887f47d401acf7
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 207.0
+  - Name: CPUTemperatureLabel
+    Id: g=17ea2f1e0abf237e0e6495e8a31ad36e
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=642466cfadcd46047010fbc0478fdba7
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"NamespaceIndex":18,"TextId":"CPUTemperature"}
+    - Name: LeftMargin
+      Id: g=fd67d03276a0f1de922937b5d4f38922
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 10.0
+    - Name: TopMargin
+      Id: g=34b00a81b37c8208062aae9cd4c9b500
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 67.0
+    - Name: TextVerticalAlignment
+      Id: g=00d76f235462916fc13cda2ae209bc16
+      Type: BaseVariableType
+      DataType: TextVerticalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: Height
+      Id: g=d4f8d8207375031b042cf93bc533a52a
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 35.0
+    - Name: WordWrap
+      Id: g=6c666f25a1ed3bc843b19def9c6d6867
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+    - Name: Width
+      Id: g=f8bdf6298e16036c45f2fb17a5b50086
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 110.0
+  - Name: CPUTemperatureValueLabel
+    Id: g=e9a70107baed6fe21c97490a31aabf17
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=299ad7fded66b0f81750ffd33f819f0f
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: StringFormatter1
+        Id: g=0ed116c5e90a1333a45c397b948ca6b0
+        Type: StringFormatter
+        Children:
+        - Name: Format
+          Id: g=48b6d0c42bdcd54b3deda016f0b8fa82
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ReferenceType: HasParameter
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"{0} C"}
+        - Name: ns=5;Source0
+          Id: g=ae3522f2ebc95fc682d302230af81436
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=768dfbfb7e6737b08a450d0c7680dab4
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{SystemNode}/Device/CPUTemperature"
+    - Name: LeftMargin
+      Id: g=842a411b1e78156e4ecc6a2c656baacf
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 10.0
+    - Name: TopMargin
+      Id: g=a09e70b24e061e1219a26f4f0a0b2761
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 100.0
+    - Name: FontWeight
+      Id: g=9c786fdfb953ea2979ba4e85fda4789b
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 700
+    - Name: TextVerticalAlignment
+      Id: g=d8f38abdc3c4d7424ca1e588aaba2b56
+      Type: BaseVariableType
+      DataType: TextVerticalAlignment
+      ModellingRule: Optional
+  - Name: CPUUtilizationLabel
+    Id: g=3f5e8ad1b854961ef4c0b313c1439dc4
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=4607b1581c8b16b68178e3289249148b
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"NamespaceIndex":18,"TextId":"CPUUtilization"}
+    - Name: LeftMargin
+      Id: g=b39c23ccef339b30828ab71adbaa9364
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 10.0
+    - Name: TopMargin
+      Id: g=8985ba8a82713b0e706cbb5e3640a579
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 6.0
+    - Name: TextVerticalAlignment
+      Id: g=71ede09d1ee7f3a189e267ee54ad17e2
+      Type: BaseVariableType
+      DataType: TextVerticalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: Height
+      Id: g=fcd4ff5d849d038dae5ab05a354132d4
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 35.0
+    - Name: WordWrap
+      Id: g=8d5d2a3d722bb2094528bd6af28004df
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+    - Name: Width
+      Id: g=bb4f461b92b90cee2683cc0292975cbd
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 110.0
+  - Name: CPUUtilizationValueLabel
+    Id: g=c17de4e2283d8347e6ff787e25ce6478
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=c7fc09b28375d37ae5d89fa45ec4922b
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: StringFormatter1
+        Id: g=23e4e3f83c5404987eb2c2c4bcd79378
+        Type: StringFormatter
+        Children:
+        - Name: Format
+          Id: g=4e4550a910fe7013fc3dec64f004ec1c
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ReferenceType: HasParameter
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"{0} %"}
+        - Name: ns=5;Source0
+          Id: g=af2d15a109284a0a2b82f8f7a52b720b
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=1affb013b4ddd709b73c19a9ce532e96
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{SystemNode}/Device/CPUUtilization"
+    - Name: LeftMargin
+      Id: g=da76763bb5dd1e0c0a513bdaa3fb653f
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 10.0
+    - Name: TopMargin
+      Id: g=c97d85b156ff32232acdb4480b7b2c3e
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 39.0
+    - Name: FontWeight
+      Id: g=17eb1694d3319e9b6c55e350eac66820
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 700
+    - Name: TextVerticalAlignment
+      Id: g=e0348c07eb1b55ea364acf2bb8470f3d
+      Type: BaseVariableType
+      DataType: TextVerticalAlignment
+      ModellingRule: Optional
+  - Name: LastDeployLabel
+    Id: g=873a3586fcad5186ce58691f4caa8080
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=1a3feaa5587ab77af50628c87d88afc2
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"NamespaceIndex":18,"TextId":"LastDeploy"}
+    - Name: LeftMargin
+      Id: g=b7f12248e154c98e8c54611919bdf323
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 255.0
+    - Name: TopMargin
+      Id: g=21559ca1c87c23c2f7469832dcdecd83
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 125.0
+    - Name: TextVerticalAlignment
+      Id: g=e387f648c43845896a5d1730d7c07488
+      Type: BaseVariableType
+      DataType: TextVerticalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: Height
+      Id: g=d0a74381f349a8b1911bfa2b95523f42
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 35.0
+    - Name: WordWrap
+      Id: g=3921195e8c48a694096a40b0e54af04d
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+    - Name: Width
+      Id: g=219a0eda1e22ae2390954b3a0797578a
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 110.0
+  - Name: LastDeployValueLabel
+    Id: g=5d0ca5867cedce65b5a62c2bacffdde6
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=dc68dff6cef6364f5ac2e145f5f39162
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: StringFormatter1
+        Id: g=f6b450ec4cc5c35348bce43442c4798b
+        Type: StringFormatter
+        Children:
+        - Name: Format
+          Id: g=61788a82251160dcb19ea4282f052ada
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ReferenceType: HasParameter
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"{0:g}"}
+        - Name: ns=5;Source0
+          Id: g=d27b339b625d1ce671d54887a5adbcfd
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=e7ab1122fb6786f69455ff23bc327ba5
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{SystemNode}/Device/LastApplicationUpdateTime"
+    - Name: LeftMargin
+      Id: g=4f19b9d699111eb5c0a71451779de0f7
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 255.0
+    - Name: TopMargin
+      Id: g=604333bf545b11f4511c6ec3e86000fd
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 158.0
+    - Name: FontWeight
+      Id: g=14e2ff7f50af3c57fcd2b30d05e09864
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 700
+    - Name: TextVerticalAlignment
+      Id: g=18eed09e6abb10990842ea7f2f7f7ac8
+      Type: BaseVariableType
+      DataType: TextVerticalAlignment
+      ModellingRule: Optional
+  - Name: LastRebootLabel
+    Id: g=d35e2f9913862f807db243028e45bc17
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=0632072e5241304d18cf0623f9529146
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"NamespaceIndex":18,"TextId":"LastReboot"}
+    - Name: LeftMargin
+      Id: g=bd7518c0645a8916d703f682d359a337
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 136.0
+    - Name: TopMargin
+      Id: g=a5ce9cca119d667db6ca56ae93e393e8
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 125.0
+    - Name: TextVerticalAlignment
+      Id: g=51f51e38e5d5bce289a5bb0a60d072bf
+      Type: BaseVariableType
+      DataType: TextVerticalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: Height
+      Id: g=496f74165cbd58c4ce426300ee91c2b0
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 35.0
+    - Name: WordWrap
+      Id: g=89ca32fd7ee20f97f39ae321824c9783
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+    - Name: Width
+      Id: g=7b8e8d4f38b6295d6a086cc053f8e10d
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 110.0
+  - Name: LastRebootValueLabel
+    Id: g=7c8fd32f5d6616fe2edc22c86acad7a0
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=96c1e8fdd7b9e4864b51870aac315a5f
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: StringFormatter1
+        Id: g=d59175b3aa4466b38ab88a25d1b13988
+        Type: StringFormatter
+        Children:
+        - Name: Format
+          Id: g=751a541c7fcfa184c04a4fd1c68d16ed
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ReferenceType: HasParameter
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"{0:g}"}
+        - Name: ns=5;Source0
+          Id: g=6ae37393798ff369d11ae801a8e93b8c
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=1c271084d4d3a837f59446aca7c4d320
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{SystemNode}/Device/LastBootupTime"
+    - Name: LeftMargin
+      Id: g=aa24fb073b9e36d2a06f37b5609e5358
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 136.0
+    - Name: TopMargin
+      Id: g=d9fb07162a355a97e89a0b03441f9f76
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 158.0
+    - Name: FontWeight
+      Id: g=ac1787b00af7e4432d328c561d642c56
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 700
+    - Name: TextVerticalAlignment
+      Id: g=f69394c0b8f2b7b49345949368d8ab15
+      Type: BaseVariableType
+      DataType: TextVerticalAlignment
+      ModellingRule: Optional
+  - Name: FreeMemoryLabel
+    Id: g=538f635daa3e2a479852873073574ae9
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=4fc1c6e1c325716431ca0d0eefa4ed80
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"NamespaceIndex":18,"TextId":"FreeMemory"}
+    - Name: LeftMargin
+      Id: g=93b61411af8f1990ffbf5b8cc83fb552
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 136.0
+    - Name: TopMargin
+      Id: g=a5c2c4d1efa252982741e9079d2aad3e
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 67.0
+    - Name: TextVerticalAlignment
+      Id: g=9ad355104da93667f384b0291fb38eb7
+      Type: BaseVariableType
+      DataType: TextVerticalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: Height
+      Id: g=1d4f84b25bb1710e7d66ec672bc22b42
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 35.0
+    - Name: WordWrap
+      Id: g=bff859cf30d4c93265869f06215c33b4
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+    - Name: Width
+      Id: g=0b8a696eceda64548fe9d04f6aef316f
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 110.0
+  - Name: FreeMemoryValueLabel
+    Id: g=612db6344910cd88a39e8c576f61e22c
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=7a51e4a4e63d8ee62b86c644acd8db56
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: StringFormatter1
+        Id: g=54938afddb0d0ea680e30bbb9abc13f4
+        Type: StringFormatter
+        Children:
+        - Name: Format
+          Id: g=4c8eb5f7879d1d1d55edb8d76ccb0678
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ReferenceType: HasParameter
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"{0} kB"}
+        - Name: ns=5;Source0
+          Id: g=d2ec160c15ab2c8816b0bac84fa24ebc
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=69bc22660accabc2256d30e0c7e93054
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{SystemNode}/Device/FreeMemory"
+    - Name: LeftMargin
+      Id: g=3ee54dd18fb59f3595a6581a448bffbc
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 136.0
+    - Name: TopMargin
+      Id: g=1636c83450b67054418ca049646f0d53
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 100.0
+    - Name: FontWeight
+      Id: g=e95cccca740fc239b1de0a0574b7ddda
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 700
+    - Name: TextVerticalAlignment
+      Id: g=97dbcd5dc1db9dc2fd6ef21a02db94de
+      Type: BaseVariableType
+      DataType: TextVerticalAlignment
+      ModellingRule: Optional
+  - Name: UsedMemoryLabel
+    Id: g=ccbd53cfb5496d688baa033764800e30
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=389a6df3585894c300c91c680e11bdd9
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"NamespaceIndex":18,"TextId":"UsedMemory"}
+    - Name: LeftMargin
+      Id: g=a2daffaf6ddc32dc3786bd9866577124
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 136.0
+    - Name: TopMargin
+      Id: g=21661e713b9fc7f30d598aa168032c05
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 6.0
+    - Name: HorizontalAlignment
+      Id: g=b1dc4b6697458a577b94555b8c8aad5a
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+    - Name: TextVerticalAlignment
+      Id: g=ea344acffa0a8914110edd4c75ec69ef
+      Type: BaseVariableType
+      DataType: TextVerticalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: Height
+      Id: g=239f4ab5335d68810b220d525e562a41
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 35.0
+    - Name: WordWrap
+      Id: g=b96bb3c4c0226f7efc39d661abefe8d1
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+    - Name: Width
+      Id: g=516c933fa332672a162c521790f11052
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 110.0
+  - Name: UsedMemoryValueLabel
+    Id: g=da623a2092ac9d80eeb778a5dafba64f
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=09ac76c154d6465b21823850486ed959
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: StringFormatter1
+        Id: g=f39510783fb1a9f010006edfb64cc5ee
+        Type: StringFormatter
+        Children:
+        - Name: Format
+          Id: g=03676d1ab5d4a8b71ba92d117bd897bd
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ReferenceType: HasParameter
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"{0} kB"}
+        - Name: ns=5;Source0
+          Id: g=22a4fab831013df1018871efbb470ba9
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=b9bdf268b13f5cbba1c41635b71b0635
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{SystemNode}/Device/UsedMemory"
+    - Name: LeftMargin
+      Id: g=75eef86b70326650781b0940ec002737
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 136.0
+    - Name: TopMargin
+      Id: g=8669cfac660dd6afc4f6542fd3cf1803
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 39.0
+    - Name: FontWeight
+      Id: g=ffe2f1e23b97509acb67bbd3a1de37b0
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 700
+    - Name: TextVerticalAlignment
+      Id: g=ffb9d89db3200236ecbfcba1a2420728
+      Type: BaseVariableType
+      DataType: TextVerticalAlignment
+      ModellingRule: Optional
+  - Name: PowerOnTimeLabel
+    Id: g=f2817ed23c92331fc142fb18531b72b8
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=76b505261a8237eb5d7c1d462ca0b454
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"NamespaceIndex":18,"TextId":"PowerOnTime"}
+    - Name: LeftMargin
+      Id: g=fdc123b2876344068eb8d6d27dc32db8
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 10.0
+    - Name: TopMargin
+      Id: g=e8bee7cce4ae0c1a9d27dd65f5f4c555
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 125.0
+    - Name: TextVerticalAlignment
+      Id: g=4b495ad9256c756a18bcf2b55e4ffab4
+      Type: BaseVariableType
+      DataType: TextVerticalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: Height
+      Id: g=29a8a5e4ec3fd03a8513c4651a9515a4
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 35.0
+    - Name: WordWrap
+      Id: g=28c1c96b1c881c51b9e9a882f4503253
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+    - Name: Width
+      Id: g=53160d41286f1b83b57811a88804d817
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 110.0
+  - Name: PowerOnTimeValueLabel
+    Id: g=73a670f37ee83c71a947c2d518f575f7
+    Type: Label
+    Children:
+    - Name: LeftMargin
+      Id: g=47d3cafd5efdc2b2cf78fe50bf53fe49
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 10.0
+    - Name: TopMargin
+      Id: g=d0eeac79e16528f8ea558c0e72b91169
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 158.0
+    - Name: FontWeight
+      Id: g=0b8b92c7de127240a7f6c88859f71ec0
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 700
+    - Name: TextVerticalAlignment
+      Id: g=079f4546b75664a95385e7c7db662a11
+      Type: BaseVariableType
+      DataType: TextVerticalAlignment
+      ModellingRule: Optional
+    - Name: Text
+      Id: g=e977377f2cc67a7f111b2aa556bd2e56
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: StringFormatter1
+        Id: g=0acea8a65033cbdc11abdfa5fd659af4
+        Type: StringFormatter
+        Children:
+        - Name: Format
+          Id: g=d22c8fe0e4b6301503540932033bb663
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ReferenceType: HasParameter
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"{0} hours"}
+        - Name: ns=5;Source0
+          Id: g=5833ea8f370afc58e948ab75369b363f
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=99ab93a5a43bc84496a23c57a08efe26
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{SystemNode}/Device/TotalOnTime"
+  - Name: FreeStorageLabel
+    Id: g=4adba434960ae25028851aab088efdf6
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=6966f594bb2f55dd75d56888e6e5e2c1
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"NamespaceIndex":18,"TextId":"FreeStorage"}
+    - Name: TopMargin
+      Id: g=dba920e7dee42576e21cfca856d846c1
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 67.0
+    - Name: HorizontalAlignment
+      Id: g=ad3905de7ef2ef5054792cf0e8543719
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+    - Name: TextVerticalAlignment
+      Id: g=a41e0341ed4e17885aff94835b044015
+      Type: BaseVariableType
+      DataType: TextVerticalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: LeftMargin
+      Id: g=1df8e393bdaacef8fd03047e50bcad0e
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 255.0
+    - Name: Height
+      Id: g=c5a20c9c34570c8f214d5035c8ccf9f6
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 35.0
+    - Name: WordWrap
+      Id: g=624e1bc32624aab41a0b95718fc56762
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+    - Name: Width
+      Id: g=e25dccb7959249b36f27d1071dbea845
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 110.0
+  - Name: FreeStorageValueLabel
+    Id: g=aa0c1054def1083cde2c44d2975791e6
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=8842d9bc1b88e0b1e127ce94b7682b4d
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: StringFormatter1
+        Id: g=8071d383d0221ad082707a7b2f8f3906
+        Type: StringFormatter
+        Children:
+        - Name: Format
+          Id: g=97e7c931ebabacb89825c0ba8fdc9f17
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ReferenceType: HasParameter
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"{0} kB"}
+        - Name: ns=5;Source0
+          Id: g=7dd0a4daf936375aab89042c4f9a7133
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=a57eaabd1d0e1076abc533e74aa79f1c
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{SystemNode}/Device/FreeStorage"
+    - Name: LeftMargin
+      Id: g=8c69447df35030f893d4a860e235eefa
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 255.0
+    - Name: TopMargin
+      Id: g=b4aac24b1a7a46588aa81aa87b04d61c
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 100.0
+    - Name: FontWeight
+      Id: g=ad768051802b5b6f2420d45dbfe282ae
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 700
+    - Name: TextVerticalAlignment
+      Id: g=118527a3b040ccf65c4f3bd4955a414a
+      Type: BaseVariableType
+      DataType: TextVerticalAlignment
+      ModellingRule: Optional
+  - Name: UsedStorageLabel
+    Id: g=4e5878df915815988418cf19cca42492
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=538bb17d492d0392788cbb62a747e0cb
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"NamespaceIndex":18,"TextId":"UsedStorage"}
+    - Name: TopMargin
+      Id: g=509328b46c49ab79cfc6d08c9c4bd0c1
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 6.0
+    - Name: HorizontalAlignment
+      Id: g=1c6c2bb44e232ac595c68c0fa9d5f94e
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+    - Name: TextVerticalAlignment
+      Id: g=df03d9e20de630d3be36c087590f3da3
+      Type: BaseVariableType
+      DataType: TextVerticalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: LeftMargin
+      Id: g=a6dd03870bbf40f7e30b11c81f8710ff
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 255.0
+    - Name: Height
+      Id: g=0b2fb17d7a35338bf2d5d4ccd82b4bfc
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 35.0
+    - Name: WordWrap
+      Id: g=eed5ace0b8c922c6aba05e8e39985354
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+    - Name: Width
+      Id: g=87edbc220add99892b1a9362b4c6f08e
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 110.0
+  - Name: UsedStorageValueLabel
+    Id: g=5af27410eaaf67ed842a9003c399a633
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=623cb508e5d1c1014b6269021f05bf8f
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: StringFormatter1
+        Id: g=3968c3981d790a86f11c421dd9c05b11
+        Type: StringFormatter
+        Children:
+        - Name: Format
+          Id: g=3811636334aa0407024754fda4d04659
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ReferenceType: HasParameter
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"{0} kB"}
+        - Name: ns=5;Source0
+          Id: g=0272ace781db2be72f3245348f66d0d6
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=f338c6773b6120fa856ddde4a73c1e26
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{SystemNode}/Device/UsedStorage"
+    - Name: LeftMargin
+      Id: g=9af455ee7413d311971827d0da010964
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 255.0
+    - Name: TopMargin
+      Id: g=c3ba9ebf76ba2bacdb237bc37a9b9764
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 39.0
+    - Name: FontWeight
+      Id: g=6db87dbdca6fbf7edc89a1d2535c2c5b
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 700
+    - Name: TextVerticalAlignment
+      Id: g=da667b66cf98db3de5258d84dea3a8f4
+      Type: BaseVariableType
+      DataType: TextVerticalAlignment
+      ModellingRule: Optional
+  - Name: SystemNode
+    Id: g=43ddc67a3bc53d47dc24491cfd36f9ca
+    Type: Alias
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Id: g=cec4fede9cd6a711997efd538f233771
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/System"
+  - Name: HorizontalAlignment
+    Id: g=2ad7686d32f419c34e39137799a9f909
+    Type: BaseVariableType
+    DataType: HorizontalAlignment
+    ModellingRule: Optional
+    Value: 3
+  - Name: VerticalAlignment
+    Id: g=e75c3da9ad6f12feeac1478afd518c6e
+    Type: BaseVariableType
+    DataType: VerticalAlignment
+    ModellingRule: Optional
+    Value: 3

@@ -1,0 +1,5 @@
+Name: CODESYSDriver1
+Id: g=1347a3cdd2ef12e3c37a41f957cc4abc
+Type: CODESYSDriver
+Children:
+- File: CODESYSStation1/CODESYSStation1.yaml

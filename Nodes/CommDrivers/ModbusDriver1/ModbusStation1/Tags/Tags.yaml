@@ -1,0 +1,28 @@
+Name: Tags
+Id: g=61dfee283c158be61aa84ef2205a8e2b
+Type: FolderType
+Children:
+- Name: ModbusTag1
+  Id: g=aeb013edecbcbc515c58b7a0c8370a95
+  Type: ModbusTag
+  DataType: Int16
+- Name: ModbusTag2
+  Id: g=ed4479bc652dfdfe75d652a6c6390b4e
+  Type: ModbusTag
+  DataType: Int16
+  Children:
+  - Name: NumRegister
+    Id: g=b102e64473080de40012e18609d34d20
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1
+- Name: ModbusTag3
+  Id: g=d160fbe37e83aa1375fe5a7fbda1fc3c
+  Type: ModbusTag
+  DataType: Int16
+  Children:
+  - Name: NumRegister
+    Id: g=9c40e8b9aca67bdbf163a42d1d930287
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 2

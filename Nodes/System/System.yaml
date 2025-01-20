@@ -1,0 +1,551 @@
+Name: System
+Id: g=24f48b37dfb08594f098e4e6b2fda193
+Type: SystemCategoryFolder
+Children:
+- Name: System
+  Id: g=ec6e454a68ebbe1d2909d93aa145ec1b
+  Type: System
+  Children:
+  - Name: NetworkInterfaces
+    Id: g=3600a07e6941e0fefcd9eeff580e1a5c
+    Type: BaseObjectType
+  - Name: DateAndTime
+    Id: g=48858795baf2666eea803dbba9642386
+    Type: PropertyGroup
+    Children:
+    - Name: SynchronizationMode
+      Id: g=6f442b6bf07866e3d8abae3a1c348589
+      Type: BaseDataVariableType
+      DataType: TimeSynchronizationModeEnum
+    - Name: RemoteNTPServer
+      Id: g=6af17dc5c69a29cf3a6f85fdd4effc2c
+      Type: BaseDataVariableType
+      DataType: String
+    - Name: DateTime
+      Id: g=d5e3d03073f83e5f10c0c5b1e1d9620c
+      Type: BaseDataVariableType
+      DataType: DateTime
+    - Name: TimeZone
+      Id: g=48db56a9169f4e1398cc22e309dde98e
+      Type: BaseDataVariableType
+      DataType: String
+    - Name: LocalNTPServerInterfaces
+      Id: g=a92970e701b17410d9f76ada77916904
+      Type: BaseDataVariableType
+      DataType: String
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+  - Name: Device
+    Id: g=7f35421ee0c36b11fd637acc2875d45e
+    Type: PropertyGroup
+    Children:
+    - Name: CatalogNumber
+      Id: g=e7301db8245b49f0e00ef45326114854
+      Type: BaseDataVariableType
+      DataType: String
+      AccessLevel: Read
+    - Name: CPUFrequency
+      Id: g=9fd4f3c0d8cf7e057d56aa4feb822d4d
+      Type: BaseDataVariableType
+      DataType: UInt32
+      AccessLevel: Read
+    - Name: CPUTemperature
+      Id: g=546ebef6b898a1a3f1ccd0d00f0e0cc8
+      Type: BaseDataVariableType
+      DataType: Int32
+      AccessLevel: Read
+    - Name: CPUUtilization
+      Id: g=64d39d2e25cd164a4b58069461b93466
+      Type: BaseDataVariableType
+      DataType: UInt32
+      AccessLevel: Read
+    - Name: EthernetNetworkCount
+      Id: g=30aa8a7d13aa5f0cefa4c82297455d0b
+      Type: BaseDataVariableType
+      DataType: UInt32
+      AccessLevel: Read
+    - Name: EthernetPortCount
+      Id: g=5a470808d7da9920c8ecf9bbf0be289d
+      Type: BaseDataVariableType
+      DataType: UInt32
+      AccessLevel: Read
+    - Name: FirmwareDate
+      Id: g=889412bc4a153aa26f63e0ec5ee142d2
+      Type: BaseDataVariableType
+      DataType: DateTime
+      AccessLevel: Read
+    - Name: FirmwareVersion
+      Id: g=e024ef9246694b37ed7c08a57c7d46ec
+      Type: BaseDataVariableType
+      DataType: String
+      AccessLevel: Read
+    - Name: HardwareProductCode
+      Id: g=04c62dd102c5a8b89735eebb9decdba0
+      Type: BaseDataVariableType
+      DataType: UInt32
+      AccessLevel: Read
+    - Name: HardwareProductType
+      Id: g=dbac895967c945653f240f52f6c85ee5
+      Type: BaseDataVariableType
+      DataType: UInt32
+      AccessLevel: Read
+    - Name: HardwareVersion
+      Id: g=0a83b7f40b2cf0be851379699f018c1b
+      Type: BaseDataVariableType
+      DataType: String
+      AccessLevel: Read
+    - Name: HardwareSeries
+      Id: g=4668cad1a661c3c3e90045c437c2c71b
+      Type: BaseDataVariableType
+      DataType: String
+      AccessLevel: Read
+    - Name: Hostname
+      Id: g=4ac7fb40d8e058998649144ecee1063f
+      Type: BaseDataVariableType
+      DataType: String
+    - Name: LastApplicationUpdateTime
+      Id: g=b3e772d8fde9acc8699a4fa159913169
+      Type: BaseDataVariableType
+      DataType: DateTime
+      AccessLevel: Read
+    - Name: LastBootupTime
+      Id: g=440002e159b10c8f0cfde50cace7b604
+      Type: BaseDataVariableType
+      DataType: DateTime
+      AccessLevel: Read
+    - Name: OSVersion
+      Id: g=0b9c4d2ba2b63e11ec2042d1daaf74cb
+      Type: BaseDataVariableType
+      DataType: String
+      AccessLevel: Read
+    - Name: ProductName
+      Id: g=1db73ba4a522769f5216a2e1b32ac650
+      Type: BaseDataVariableType
+      DataType: String
+      AccessLevel: Read
+    - Name: ProtectionModeEnabled
+      Id: g=289759224f2000cf33c437279ec77094
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: SystemManagerVersion
+      Id: g=b52fda53c062cb97db914b7cb002984e
+      Type: BaseDataVariableType
+      DataType: String
+      AccessLevel: Read
+    - Name: TotalOnTime
+      Id: g=5e6fbb1326554019335517fa420475a9
+      Type: BaseDataVariableType
+      DataType: UInt32
+      AccessLevel: Read
+    - Name: FreeMemory
+      Id: g=1dd322cff2cf1c3c4ef8497587489a35
+      Type: BaseDataVariableType
+      DataType: UInt32
+      AccessLevel: Read
+    - Name: TotalMemory
+      Id: g=51a39bc1c40a5010857dd1be2b68a07e
+      Type: BaseDataVariableType
+      DataType: UInt32
+      AccessLevel: Read
+    - Name: UsedMemory
+      Id: g=a305099c4ebf038c366647ae3b07c899
+      Type: BaseDataVariableType
+      DataType: UInt32
+      AccessLevel: Read
+    - Name: FreeStorage
+      Id: g=ae6bff89c1212bb49c80512e4d57c698
+      Type: BaseDataVariableType
+      DataType: UInt32
+      AccessLevel: Read
+    - Name: TotalStorage
+      Id: g=d86fd909a4317b6964ba0213d948afff
+      Type: BaseDataVariableType
+      DataType: UInt32
+      AccessLevel: Read
+    - Name: UsedStorage
+      Id: g=7009cc7a82644f0e7c1eecfa82bd95c2
+      Type: BaseDataVariableType
+      DataType: UInt32
+      AccessLevel: Read
+  - Name: Display
+    Id: g=ac85f77c2617a1971ee9198b210799fc
+    Type: PropertyGroup
+    Children:
+    - Name: Brightness
+      Id: g=3721f6f588913a0d02e6e0e857c7e787
+      Type: BaseDataVariableType
+      DataType: UInt32
+      Value: 10
+    - Name: HorizontalResolution
+      Id: g=2afa3175746120fc6f91e8f5c9d2d8e1
+      Type: BaseDataVariableType
+      DataType: UInt32
+      AccessLevel: Read
+    - Name: VerticalResolution
+      Id: g=de88a63fad1644b5acea3ad506477c14
+      Type: BaseDataVariableType
+      DataType: UInt32
+      AccessLevel: Read
+    - Name: Scale
+      Id: g=bee34c9d6edfe093dcd8c3401e1cdc9a
+      Type: BaseDataVariableType
+      DataType: UInt32
+      Value: 100
+    - Name: Orientation
+      Id: g=f9a4ff71416871639742653b5c4305ea
+      Type: BaseDataVariableType
+      DataType: DisplayOrientationEnum
+  - Name: Application
+    Id: g=d59ac58c63bd374ccda9575ffecfe8fc
+    Type: PropertyGroup
+    Children:
+    - Name: FastBlink
+      Id: g=79dacb37a5f1169eb0ea33e2a87b8711
+      Type: BaseDataVariableType
+      DataType: Boolean
+      AccessLevel: Read
+    - Name: MediumBlink
+      Id: g=10bd678cf88c0fc1d1b7131899b2c494
+      Type: BaseDataVariableType
+      DataType: Boolean
+      AccessLevel: Read
+    - Name: SlowBlink
+      Id: g=5302fc3f6640932c35be3b2bbae84147
+      Type: BaseDataVariableType
+      DataType: Boolean
+      AccessLevel: Read
+  - Class: Reference
+    Target: ns=16;i=17
+    Direction: Forward
+  - Name: RebootRequired
+    Id: g=cf2f3e93f3eeca2471cb5175d944b191
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Class: Reference
+    Target: ns=16;i=100
+    Direction: Forward
+- Name: FTRemoteAccess
+  Id: g=f437673fcc988bca3673e6d9346ba174
+  Type: FTRemoteAccess
+  Children:
+  - Name: RuntimeVersion
+    Id: g=82127430cfb64d0f9ad049951c780526
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+  - Name: ServerConnection
+    Id: g=464714dba731fabe383272a99b74e8bf
+    Type: BaseDataVariableType
+    DataType: ServerConnectionEnum
+    AccessLevel: Read
+  - Name: RegisteredToDomain
+    Id: g=4c893b1ac847c59ac6283bf3a295ffcf
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: AssistanceRequestMode
+    Id: g=7bc5da30d0388e986eb3ce88e84b3e8b
+    Type: BaseDataVariableType
+    DataType: AssistanceRequestModeEnum
+    AccessLevel: Read
+  - Name: AssistanceRequested
+    Id: g=35652138ee27ce2a4e1de304bef70b04
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: RemoteConnectionCount
+    Id: g=59d2bed30880949738c7d63271480b82
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: AnonymousId
+    Id: g=c9be158581b09e8c58401db655fb4616
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+  - Name: AnonymousPassword
+    Id: g=0e2189bc0de74694b584723f24214e1d
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+  - Class: Reference
+    Target: ns=16;i=71
+    Direction: Forward
+  - Class: Reference
+    Target: ns=16;i=73
+    Direction: Forward
+  - Class: Reference
+    Target: ns=16;i=75
+    Direction: Forward
+  - Class: Reference
+    Target: ns=16;i=78
+    Direction: Forward
+  - Class: Reference
+    Target: ns=16;i=99
+    Direction: Forward
+  - Class: Reference
+    Target: ns=16;i=90
+    Direction: Forward
+  - Name: RemoteConnectionRequestEventHandler
+    Id: g=f6dd11f704fd0a9bff057ad241d531f9
+    Type: EventHandler
+    Children:
+    - Name: ListenEventType
+      Id: g=37881ed39e2516361add2d4eacf5705e
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/EventTypes/BaseEventType/RemoteConnectionRequestEvent"
+    - Name: MethodsToCall
+      Id: g=debedaaea0466609e3b8acc6017ef871
+      Type: BaseObjectType
+      Children:
+      - Name: MethodContainerFTRemoteAccessWidgetUsername
+        Id: g=dac7f0425c961e31d40f60d4e64eae0a
+        Type: BaseObjectType
+        Children:
+        - Name: ObjectPointer
+          Id: g=6fefa5130532b2dee04446d740d0e8f4
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/Commands/VariableCommands"
+          Children:
+          - Name: Kind
+            Id: g=e4977a4ad20c2a0f1c31b54610724672
+            Type: PropertyType
+            DataType: NodeId
+        - Name: Method
+          Id: g=6814bbb336eb8da754053c37b960153a
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Set"
+        - Name: InputArguments
+          Id: g=2e243685f8858712e57dd03ba87677ce
+          Type: BaseObjectType
+          Children:
+          - Name: VariableToModify
+            Id: g=4f635f8b53981d15fe16873008020923
+            Type: BaseDataVariableType
+            DataType: VariablePointer
+            Value: "/Objects/ElettromeccanicaVeneta_20_01_2025/System/FTRemoteAccess/FTRemoteAccessWidgetUsername"
+          - Name: Value
+            Id: g=7d83d762db4b5f2c4def10737ad447dd
+            Type: BaseDataVariableType
+            DataType: String
+            Children:
+            - Name: DynamicLink
+              Id: g=d232edbaf5fcc71c4a727c556b28e62a
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/ElettromeccanicaVeneta_20_01_2025/System/FTRemoteAccess/RemoteConnectionRequestEventHandler/EventArguments/Username"
+              Children:
+              - Name: Mode
+                Id: g=2a749bd5d538529a881749c0a86f21c6
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                Value: 2
+          - Name: ArrayIndex
+            Id: g=e3bb011f8cb2bdafe44c10b9bbbbab26
+            Type: BaseDataVariableType
+            DataType: UInt32
+            ValueRank: ScalarOrOneDimension
+      - Name: MethodContainerFTRemoteAccessWidgetIPAddress
+        Id: g=66b56f1ba68c8c1aa272549dd7b04ebd
+        Type: BaseObjectType
+        Children:
+        - Name: ObjectPointer
+          Id: g=556b5a75b9124d93a63ee6d250615ba0
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/Commands/VariableCommands"
+          Children:
+          - Name: Kind
+            Id: g=95efda8ba7ee5666cb22873e50f45804
+            Type: PropertyType
+            DataType: NodeId
+        - Name: Method
+          Id: g=5c89e20c4020775649b6df0f8d96227e
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Set"
+        - Name: InputArguments
+          Id: g=50b887f5e9578db77957892dd32ac02e
+          Type: BaseObjectType
+          Children:
+          - Name: VariableToModify
+            Id: g=8d7b45e5cce14c1527e8fcb6be662247
+            Type: BaseDataVariableType
+            DataType: VariablePointer
+            Value: "/Objects/ElettromeccanicaVeneta_20_01_2025/System/FTRemoteAccess/FTRemoteAccessWidgetIPAddress"
+          - Name: Value
+            Id: g=cdbdb842ddc3e9133491ebeefab5c29f
+            Type: BaseDataVariableType
+            DataType: String
+            Children:
+            - Name: DynamicLink
+              Id: g=2fa32f221f82f3677687b546bcb7f89f
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/ElettromeccanicaVeneta_20_01_2025/System/FTRemoteAccess/RemoteConnectionRequestEventHandler/EventArguments/IpAddress"
+              Children:
+              - Name: Mode
+                Id: g=fd87562d9b5519691299b2bc8faa10a4
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                Value: 2
+          - Name: ArrayIndex
+            Id: g=e427251a436b67ed228f7bdcb329da66
+            Type: BaseDataVariableType
+            DataType: UInt32
+            ValueRank: ScalarOrOneDimension
+      - Name: MethodContainerFTRemoteAccessWidgetSupervisorId
+        Id: g=8420484e03bf069c988b7338b437a5ae
+        Type: BaseObjectType
+        Children:
+        - Name: ObjectPointer
+          Id: g=78215e3002d45eaa1813e970617455e1
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/Commands/VariableCommands"
+          Children:
+          - Name: Kind
+            Id: g=2425e72b9572f9f82e25f40a57b19779
+            Type: PropertyType
+            DataType: NodeId
+        - Name: Method
+          Id: g=585b62ff7cec117ad5c9ad92ac67575e
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Set"
+        - Name: InputArguments
+          Id: g=3d9310f187118d390eaa32db95c9f08d
+          Type: BaseObjectType
+          Children:
+          - Name: VariableToModify
+            Id: g=9e6b0a9776f56887c5f966a747c441df
+            Type: BaseDataVariableType
+            DataType: VariablePointer
+            Value: "/Objects/ElettromeccanicaVeneta_20_01_2025/System/FTRemoteAccess/FTRemoteAccessWidgetSupervisorId"
+          - Name: Value
+            Id: g=1261d11754af1849b4ab4b8fc74566f8
+            Type: BaseDataVariableType
+            DataType: ByteString
+            Children:
+            - Name: DynamicLink
+              Id: g=eeb9e78830c8a0ebd3b26066344e6d7e
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/ElettromeccanicaVeneta_20_01_2025/System/FTRemoteAccess/RemoteConnectionRequestEventHandler/EventArguments/SupervisorId"
+              Children:
+              - Name: Mode
+                Id: g=134860a893496e3f6cda94e4886727c3
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                Value: 2
+          - Name: ArrayIndex
+            Id: g=916a801cd59c153fa318189b7c46e272
+            Type: BaseDataVariableType
+            DataType: UInt32
+            ValueRank: ScalarOrOneDimension
+      - Name: MethodContainerFTRemoteAccessWidgetConnectionPending
+        Id: g=4b1c58b40bf5e35ec32859cd30909e3c
+        Type: BaseObjectType
+        Children:
+        - Name: ObjectPointer
+          Id: g=ca7fae5440c084f4047aa6c41f1c462a
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/Commands/VariableCommands"
+          Children:
+          - Name: Kind
+            Id: g=d92998b9d6dfc17c8e2fa073cf8aecad
+            Type: PropertyType
+            DataType: NodeId
+        - Name: Method
+          Id: g=ab708ef3b7407a1d235161540145c851
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Set"
+        - Name: InputArguments
+          Id: g=ef92fd0a34974658f4d34a859c59220d
+          Type: BaseObjectType
+          Children:
+          - Name: VariableToModify
+            Id: g=3ab39efedaf93525d12544f05e6006d5
+            Type: BaseDataVariableType
+            DataType: VariablePointer
+            Value: "/Objects/ElettromeccanicaVeneta_20_01_2025/System/FTRemoteAccess/FTRemoteAccessWidgetConnectionPending"
+          - Name: Value
+            Id: g=10511463676e5af310ee2031b953638b
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+          - Name: ArrayIndex
+            Id: g=20fa497b9a98c0034e26e9a847f1a586
+            Type: BaseDataVariableType
+            DataType: UInt32
+            ValueRank: ScalarOrOneDimension
+    - Name: EventArguments
+      Id: g=7efa063c23696a76203494c92bd4477a
+      Type: RemoteConnectionRequestEvent
+      Children:
+      - Name: SupervisorId
+        Id: g=2f451be574421a332747ccc04c2ce481
+        Type: BaseDataVariableType
+        DataType: ByteString
+      - Name: Username
+        Id: g=0ba72c4369d048d95713e97c9be7764a
+        Type: BaseDataVariableType
+        DataType: String
+      - Name: IpAddress
+        Id: g=94d51ff23e1aff27c4127e483d083a93
+        Type: BaseDataVariableType
+        DataType: String
+      - Name: EventId
+        Id: g=2a940bbbc250d2a7fff27d080927f664
+        Type: PropertyType
+        DataType: ByteString
+      - Name: EventType
+        Id: g=532443b64feeeef004f547ca5fad2604
+        Type: PropertyType
+        DataType: NodeId
+      - Name: SourceNode
+        Id: g=70ef5b00aa61e9bf12a9c983da81cd54
+        Type: PropertyType
+        DataType: NodeId
+      - Name: SourceName
+        Id: g=3bca954576446b9a71eae86f0e96802d
+        Type: PropertyType
+        DataType: String
+      - Name: Time
+        Id: g=46715be976deee84ece0ed7f0c19f2f5
+        Type: PropertyType
+        DataType: UtcTime
+      - Name: ReceiveTime
+        Id: g=fa5f98cde7d9708a82e7bc06ee35907a
+        Type: PropertyType
+        DataType: UtcTime
+      - Name: Message
+        Id: g=32721ceb3db53ba6daf0dc605a5dee2c
+        Type: PropertyType
+        DataType: LocalizedText
+      - Name: Severity
+        Id: g=8a907e78d388a42037d55af4e4bcb8bc
+        Type: PropertyType
+        DataType: UInt16
+  - Name: FTRemoteAccessWidgetUsername
+    Id: g=4d410d91e4414682a8403bcbb906403e
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: FTRemoteAccessWidgetIPAddress
+    Id: g=a2fa3fb9ada84c5eb4c0d391b616d724
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: FTRemoteAccessWidgetSupervisorId
+    Id: g=ba6c88456c1947b58f04cc05a7281caf
+    Type: BaseDataVariableType
+    DataType: ByteString
+  - Name: FTRemoteAccessWidgetConnectionPending
+    Id: g=8e5d66d85a6a4d2bb59303d527c51619
+    Type: BaseDataVariableType
+    DataType: Boolean

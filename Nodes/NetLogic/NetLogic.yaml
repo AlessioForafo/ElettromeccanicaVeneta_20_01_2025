@@ -1,0 +1,189 @@
+Name: NetLogic
+Id: g=3348f2a486185442f924bea036e1d460
+Type: NetLogicCategoryFolder
+Children:
+- Name: ImportExportModbusTagCsvFile
+  Id: g=0c676bf95176655ddf64e09892109d0d
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: BehaviourStartPriority
+    Id: g=5c1d8d411d240c87c171d93640597cab
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: ExportTags
+    Id: g=ecedcde1c741245f64ee8c166efde8bc
+  - Class: Method
+    Name: ImportTags
+    Id: g=b6ed83aaa22afff6f40229c3c8b91439
+  - Name: CsvPath
+    Id: g=1e8d96c590bf8c732540a4ffb7add696
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+    Value: "ns=18;%PROJECTDIR%/ModbusTags.csv"
+  - Name: FieldSeparator
+    Id: g=6726ae89261c24dae276a84010a0d2fa
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ";"
+  - Name: WrapFields
+    Id: g=1317e329a3efd7218bdee495c1719b7d
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: ModbusDriver
+    Id: g=affe914e8f91b2a6eb9567e1ee356eeb
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/ElettromeccanicaVeneta_20_01_2025/CommDrivers/ModbusDriver1"
+    Children:
+    - Name: Kind
+      Id: g=9cc9d082c0cf85f9529ff6fc12afb201
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/CommunicationDriver/ModbusDriver"
+  - Name: ns=7;LibraryReference
+    Id: g=dee5612d2274241ce720d738c57d0b59
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 7
+      },
+      "Body": {
+       "libraryGuid": "f0701375ee41467993d632db6a8fdaa5",
+       "objectGuid": "12228df75f3c346c36d0f0e19e856840",
+       "objectVersion": 1,
+       "highestIgnoredVersion": 0
+      }
+     }
+- Name: AlarmsHistoryExporter
+  Id: g=8d8649e135e01a947c7f6af8d87b11be
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: CSVPath
+    Id: g=03ddf3919cd855d8bb4311b556028ccf
+    Type: BaseDataVariableType
+    DataType: AbsoluteResourceUri
+    Value: "%PROJECTDIR%/Allarmi.csv"
+  - Name: FieldDelimiter
+    Id: g=f1a82d67b4d895902aea1e89d8c87681
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ";"
+  - Name: Table
+    Id: g=46a222a25552ae121f3ed4b741c0f649
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/ElettromeccanicaVeneta_20_01_2025/DataStores/EmbeddedDatabase1/Tables/AlarmsEventLogger1"
+    Children:
+    - Name: Kind
+      Id: g=9d754bb2086810598672898aebbc27eb
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/Table"
+  - Name: Query
+    Id: g=26ff5a0066e1bcfeb85707dba914ece3
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: StringFormatter1
+      Id: g=7a16530462cb41949a8fc282b29c1abf
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Id: g=0ffe159c8d1d3fe7cbec4c73f58d3729
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"\nSELECT * FROM {0:sql_identifier} WHERE Time BETWEEN {1:sql_literal} AND {2:sql_literal}"}
+      - Name: Source0
+        Id: g=421059dc4ccf25a8db108ba75e2d041e
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Id: g=4da6fc9585068a7096767eb8a82efc0a
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Table@BrowseName"
+          Children:
+          - Name: Mode
+            Id: g=edb02a5269a8579d30d05b55174d86a6
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Source1
+        Id: g=5aaf084599016a1e8a4837fc5b2b4be1
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Id: g=6d5e76d00e8954d394f8d4b77e1f5f6c
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../From"
+          Children:
+          - Name: Mode
+            Id: g=0a890f9bc26d3b7e901f66f3fd8c4f12
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+      - Name: Source2
+        Id: g=18b3d8bc1ae8e724c51e7835fd21c27c
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Id: g=31fd7a9b67cfcaddf23451c2f4bd2e30
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../To"
+          Children:
+          - Name: Mode
+            Id: g=aa6591d934e484b57ab6bd8b629012d8
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+  - Name: From
+    Id: g=3ff52f8955191eb82f645c044896ede6
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "2025-01-01T00:00:00.0000000"
+  - Name: To
+    Id: g=a9328a554a56565e0eee3b4780407e75
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "2025-01-31T00:00:00.0000000"
+  - Class: Method
+    Name: Export
+    Id: g=9de569cb897889c29b2503fc22a92bbb
+  - Name: WrapFields
+    Id: g=999758423799eab06833dd3901533206
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: ns=7;LibraryReference
+    Id: g=d903992c9800fcbbf7df4141f429b377
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 7
+      },
+      "Body": {
+       "libraryGuid": "f0701375ee41467993d632db6a8fdaa5",
+       "objectGuid": "c2477f7ab544386ce428afcd6f7c6d5d",
+       "objectVersion": 1,
+       "highestIgnoredVersion": 0
+      }
+     }
