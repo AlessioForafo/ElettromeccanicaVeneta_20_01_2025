@@ -6510,6 +6510,45 @@ Children:
   Id: g=0d0bfa50baacab85abab6b07cde9baf9
   Supertype: Screen
   ReferenceType: HasComponent
+  Children:
+  - Name: LED1
+    Id: g=7fba87144ad07fe4ace0e21e397659f2
+    Type: Led
+    Children:
+    - Name: Active
+      Id: g=ac557b817f216cc9dfafcc99edba8ee0
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Width
+      Id: g=944f6c25a6c81f2dc287e54dc2cd568c
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Id: g=47b864a592b1f35d3bf0e03a3270fa4e
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: LeftMargin
+      Id: g=8d2efc9f4b7a970561d1040837bf08d0
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 230.0
+    - Name: TopMargin
+      Id: g=f51c49e05dbe3384b6bf6cefd4f555fa
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 160.0
+    - Name: Color
+      Id: g=1b33fa3dfc245601d7058cab11c9d632
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#ffff00"
 - Name: LayoutVerticale
   Id: g=38edbd8212caf3cc5dd801ad29b06863
   Supertype: Screen
